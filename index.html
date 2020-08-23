@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="style.css" rel="stylesheet">
+      <title>Lucky Casino</title>
+   </head>
+   <body>
+      <h1 class="page-title">Lucky Casino</h1>
+      <div class="overlay-text visible">
+         Click To Start
+      </div>
+      <div id="game-over-text" class="overlay-text">
+         GAME OVER
+         <span class="overlay-text-small">Click to Restart Game</span>
+      </div>
+      <div id="victory-text" class="overlay-text">
+         WINNER
+         <span class="overlay-text-small">Click to Restart Game</span>
+      </div>
+      <div class="game-container">
+         <div class="game-info-container">
+            <div class="game-info">
+               Clock <span id="time-remaining">60</span>
+            </div>
+            <div class="game-info">
+               Wins <span id="wins">0</span>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/cherry.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/cherry.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/seven.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/seven.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/ace.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/ace.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/jackpot.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/jackpot.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/lemon.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/lemon.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/melon.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/melon.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/coins.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/coins.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/bells.png">
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-back card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="chip" src="assests/casino/chip.png">
+            </div>
+            <div class="card-front card-face">
+               <img class="dice dice-top-left" src="assests/casino/dice.png">
+               <img class="dice dice-top-right" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-left" src="assests/casino/dice.png">
+               <img class="dice dice-bottom-right" src="assests/casino/dice.png">
+               <img class="win-card" src="assests/casino/bells.png">
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
