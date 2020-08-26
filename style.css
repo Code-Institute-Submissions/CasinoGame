@@ -71,10 +71,10 @@ body {
 	border-radius: 12px;
 }
 
-/* cursor attempt review*/
+/* cursor attempt review
 .card:hover {
     cursor: url("assets/casino/cursor.ani"), auto;
-}
+}*/
 
 .card-face {
 	position: absolute;
