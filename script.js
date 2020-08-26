@@ -4,7 +4,7 @@ class AudioController {
 		this.flipsound = new Audio('assets/Audio/flip.mp3');
 		this.matchsound = new Audio('assets/Audio/match.mp3');
 		this.victorysound = new Audio('assets/Audio/victory.mp3');
-		this.gameOversound = new Audio('Assets/Audio/gameOver.mp3');
+		this.lose = new Audio('Assets/Audio/lose.mp3');
 		this.bgmusic.volume = 0.5;
 		this.bgmusic.loop = true;
 	}
@@ -32,7 +32,7 @@ class AudioController {
     
 	gameOver() {
 		this.stopMusic();
-		this.gameOversound.play();
+		this.lose.play();
 	}
 }
 
@@ -55,7 +55,7 @@ class casinogame {
         setTimeout(() => {
             this.audioController.startMusic();
             this.shuffleCards(this.cardsArray);
-            this.countDown = this.startCountDown();
+            this.countdown = this.startCountdown();
             this.busy = false;
         }, 500);
         this.hideCards(); 
@@ -80,7 +80,7 @@ class casinogame {
     }
 }
   //corect
-    startCountDown() {
+    startCountdown() {
         return setInterval(() => {
             this.timeRemaining--;
             this.timer.innerText = this.timeRemaining;
