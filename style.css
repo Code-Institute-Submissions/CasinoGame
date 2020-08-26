@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Casino';
-	src: url(assests/casino/casino.ttf);
+	src: url(assets/casino/casino.ttf);
 }
 
 @font-face {
 	font-family: 'casinoflat';
-	src: url(assests/casino/casinoflat.ttf);
+	src: url(assets/casino/casinoflat.ttf);
 }
 
 h1 {
@@ -73,7 +73,7 @@ body {
 
 /* cursor attempt review*/
 .card:hover {
-    cursor: url("assests/casino/cursor.ani"), auto;
+    cursor: url("assets/casino/cursor.ani"), auto;
 }
 
 .card-face {
