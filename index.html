@@ -3,8 +3,8 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="style.css" rel="stylesheet">
-      <script src="script.js" async></script>
+      <link href="assets/CSS/style.css" rel="stylesheet">
+      <script src="assets/javascript/script.js" async></script>
       <title>Lucky Casino</title>
    </head>
    <body>
@@ -25,264 +25,287 @@
             <div class="game-info">
                Clock <span id="time-remaining">60</span>
             </div>
+           <div class="game-sound">
+              <span id="sound"></span>
+              <img class="speaker" src="assets/images/speaker-green.png">
+            </div>
             <div class="game-info">
                Flips <span id="flips">0</span>
             </div>
          </div>
+
+
+         <!-- middle of the card image  -->
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- top row, first card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/cherry.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/cherry.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- top row, second card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/cherry.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/cherry.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- top row, third card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/seven.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/seven.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- top row, fourth card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/seven.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/seven.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- second row, first card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/ace.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/ace.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- second row, second card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/ace.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/ace.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- second row, third card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/jackpot.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/jackpot.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- second row, fourth card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/jackpot.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/jackpot.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- third row, first card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/lemon.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/lemon.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- third row, second card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/lemon.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/lemon.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- third row, third card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/melon.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/melon.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- third row, fourth card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/melon.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/melon.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- last row, first card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/coins.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/coins.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- last row, second card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/coins.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/coins.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- last row, third card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/bells.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/bells.png">
             </div>
          </div>
          <div class="card">
             <div class="card-back card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="chip" src="assets/casino/chip.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="chip" src="assets/images/chip.png">
             </div>
+            <!-- last row, last card -->
             <div class="card-front card-face">
-               <img class="dice dice-top-left" src="assets/casino/dice.png">
-               <img class="dice dice-top-right" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-left" src="assets/casino/dice.png">
-               <img class="dice dice-bottom-right" src="assets/casino/dice.png">
-               <img class="win-card" src="assets/casino/bells.png">
+               <img class="dice dice-top-left" src="assets/images/dice.png">
+               <img class="dice dice-top-right" src="assets/images/dice.png">
+               <img class="dice dice-bottom-left" src="assets/images/dice.png">
+               <img class="dice dice-bottom-right" src="assets/images/dice.png">
+               <img class="win-card" src="assets/images/bells.png">
             </div>
          </div>
       </div>

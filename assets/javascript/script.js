@@ -134,7 +134,6 @@ class casinogame {
 		clearInterval(this.countDown);
 		this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
-        this.hidecards();
 	}
 	//corect
     shuffleCards() {
@@ -173,3 +172,37 @@ if (document.readyState == 'loading') {
 } else {
 	ready();
 }
+
+
+var sound;
+function initAudioPlayer(){
+	audio = new Audio();
+	audio.src = "audio/Stoker.mp3";
+	audio.loop = true;
+	audio.play();
+	// Set object references
+	playbtn = document.getElementById('sound');
+	// Add Event Handling
+	playbtn.addEventListener("click",playPause);
+	mutebtn.addEventListener("click", mute);
+	// Functions
+	function playPause(){
+		if(audio.paused){
+		    audio.play();
+		    playbtn.style.background = ('sound');
+	    } else {
+		    audio.pause();
+		    playbtn.style.background = ('sound');
+	    }
+	}
+	function mute(){
+		if(audio.muted){
+		    audio.muted = false;
+		    mutebtn.style.background = ('sound');
+	    } else {
+		    audio.muted = true;
+		    mutebtn.style.background = ('sound');
+	    }
+	}
+}
+window.addEventListener("load", initAudioPlayer);

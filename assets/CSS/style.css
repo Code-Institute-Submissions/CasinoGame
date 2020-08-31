@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Casino';
-	src: url(assets/casino/casino.ttf);
+	src: url(assets/fonts/casino.ttf);
 }
 
 @font-face {
 	font-family: 'casinoflat';
-	src: url(assets/casino/casinoflat.ttf);
+	src: url(assets/fonts/casinoflat.ttf);
 }
 
 h1 {
@@ -51,6 +51,13 @@ body {
 	font-size: 4em;
 }
 
+.game-sound {
+	font-family: casinoflat, serif;
+    color: #00EB70;
+	font-size: 4em;
+}
+
+
 /*center the cards there in the middle with correct spacing*/
 
 .game-container {
@@ -62,7 +69,10 @@ body {
     perspective: 500px;
 }
 
-
+.speaker {
+  width: auto;
+  height: 40px;
+}
 
 .card {
 	position: relative;
@@ -73,7 +83,7 @@ body {
 
 /* cursor attempt review
 .card:hover {
-    cursor: url("assets/casino/cursor.ani"), auto;
+    cursor: url("assets/images/cursor.ani"), auto;
 }*/
 
 .card-face {
@@ -267,3 +277,4 @@ height: 70px;
     align-items: center;
   }
 }
+
