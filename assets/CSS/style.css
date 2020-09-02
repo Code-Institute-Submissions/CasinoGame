@@ -1,15 +1,15 @@
 @font-face {
-	font-family: 'Casino';
-	src: url(assets/fonts/casino.ttf);
+	font-family: 'casino';
+	src: url(../fonts/casino.ttf);
 }
 
 @font-face {
 	font-family: 'casinoflat';
-	src: url(assets/fonts/casinoflat.ttf);
+	src: url(../fonts/casinoflat.ttf);
 }
 
 h1 {
-	font-family: Casino;
+	font-family: casino;
 }
 
 * {
@@ -127,7 +127,7 @@ animation: dance 1s linear infinite 500ms;
     align-items: center;
     z-index: 100;
     color: #EEB252;
-    font-family: Casino, serif;
+    font-family: casino, serif;
 }
 
 .overlay-text-small {

@@ -6,7 +6,8 @@ class AudioController {
 		this.victorysound = new Audio('assets/Audio/victory.mp3');
 		this.losesound = new Audio('assets/Audio/lose.mp3');
 		this.bgmusic.volume = 0.5;
-		this.bgmusic.loop = true;
+        this.bgmusic.loop = true;
+        this.muted = false;
 	}
 	startMusic() {
 		this.bgmusic.play();
@@ -33,7 +34,15 @@ class AudioController {
 	gameOver() {
 		this.stopMusic();
 		this.losesound.play();
-	}
+    }
+    
+    togglemusic() {
+        if (this.muted == false) {
+            this.muted == true;
+        } 
+         
+    }
+
 }
 
 class casinogame {
@@ -152,7 +161,12 @@ class casinogame {
 function ready() {
 	let overlays = Array.from(document.getElementsByClassName('overlay-text'));
 	let cards = Array.from(document.getElementsByClassName('card'));
-	let game = new casinogame(60, cards);
+    let game = new casinogame(60, cards);
+    let muteButton = document.getElementById('speaker');
+    muteButton.addEventListener("click", muteFunction);
+    function muteFunction(){
+    console.log("testing an hope it works")
+}
 
 	overlays.forEach(overlay => {
 		overlay.addEventListener('click', () => {
@@ -174,35 +188,5 @@ if (document.readyState == 'loading') {
 }
 
 
-var sound;
-function initAudioPlayer(){
-	audio = new Audio();
-	audio.src = "audio/Stoker.mp3";
-	audio.loop = true;
-	audio.play();
-	// Set object references
-	playbtn = document.getElementById('sound');
-	// Add Event Handling
-	playbtn.addEventListener("click",playPause);
-	mutebtn.addEventListener("click", mute);
-	// Functions
-	function playPause(){
-		if(audio.paused){
-		    audio.play();
-		    playbtn.style.background = ('sound');
-	    } else {
-		    audio.pause();
-		    playbtn.style.background = ('sound');
-	    }
-	}
-	function mute(){
-		if(audio.muted){
-		    audio.muted = false;
-		    mutebtn.style.background = ('sound');
-	    } else {
-		    audio.muted = true;
-		    mutebtn.style.background = ('sound');
-	    }
-	}
-}
-window.addEventListener("load", initAudioPlayer);
+
+
