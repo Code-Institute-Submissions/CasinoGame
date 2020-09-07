@@ -36,6 +36,7 @@ body {
 	font-size: 6em;
 }
 
+
 /* -1 very last column*/
 .game-info-container {
 	grid-column: 1 / -1;
@@ -139,6 +140,7 @@ animation: dance 1s linear infinite 500ms;
 
 .overlay-text-small {
     font-size: .3em;
+    text-align: center;
 }
 
 .overlay-text.visible {
