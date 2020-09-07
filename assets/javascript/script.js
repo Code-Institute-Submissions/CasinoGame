@@ -2,7 +2,7 @@ class AudioController {
 	constructor() {
 		this.bgmusic = new Audio('assets/Audio/bgmusic.mp3');
 		this.flipsound = new Audio('assets/Audio/flip.mp3');
-		this.matchsound = new Audio('assets/Audio/match.mp3');
+		this.matchsound = new Audio('assets/Audio/arcade.mp3');
 		this.victorysound = new Audio('assets/Audio/victory.mp3');
 		this.losesound = new Audio('assets/Audio/lose.mp3');
 		this.bgmusic.volume = 0.5;
@@ -37,12 +37,20 @@ class AudioController {
     }
     
     togglemusic() {
-        if (this.muted == false) {
-            this.muted == true;
-        } 
-         
+        console.log("muted, before switch: ", this.muted);
+        let btn = document.getElementById('game-sound');
+        if(!this.muted){
+            this.stopMusic();
+            this.muted = true;
+            btn.classList.add('muted');
+        }
+        else{
+            this.startMusic();
+            this.muted = false;
+            btn.classList.remove('muted');
+        }
+        console.log("muted, after switch: ", this.muted);
     }
-
 }
 
 class casinogame {
@@ -162,11 +170,12 @@ function ready() {
 	let overlays = Array.from(document.getElementsByClassName('overlay-text'));
 	let cards = Array.from(document.getElementsByClassName('card'));
     let game = new casinogame(60, cards);
-    let muteButton = document.getElementById('speaker');
+    let muteButton = document.getElementById('game-sound');
     muteButton.addEventListener("click", muteFunction);
-    function muteFunction(){
-    console.log("testing an hope it works")
-}
+ function muteFunction() {
+        console.log("testing an hope it works");
+        game.audioController.togglemusic();
+    }
 
 	overlays.forEach(overlay => {
 		overlay.addEventListener('click', () => {

@@ -69,9 +69,16 @@ body {
     perspective: 500px;
 }
 
-.speaker {
-  width: auto;
-  height: 40px;
+.speaker, .mute {
+    width: auto;
+    height: 40px;
+}
+.game-sound.muted .speaker,
+.game-sound .mute {
+    display: none;
+}
+.game-sound.muted .mute {
+    display: inline;
 }
 
 .card {
