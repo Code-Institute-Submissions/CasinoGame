@@ -34,8 +34,10 @@ class AudioController {
 	}
 
 	gameOver() {
+        if(!this.muted){
 		this.stopMusic();
-		this.losesound.play();
+        this.losesound.play();
+        }
     }
     
     togglemusic() {
