@@ -82,10 +82,9 @@ body {
     display: inline;
 }
 
-.card_wrapper
- {
-     display:none;
- }
+#card_wrapper{
+    display:none;
+}
 
 .card {
 	position: relative;

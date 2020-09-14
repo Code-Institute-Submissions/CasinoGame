@@ -191,12 +191,12 @@ function ready() {
 		});
 	});
 }
-
+console.log("building_cards");
+buildCards();
 if (document.readyState == 'loading') {
 	document.addEventListener('DOMContentLoaded', ready);
 } else {
-    console.log("building_cards");
-buildCards();
+
     ready();
 } 
 

@@ -34,9 +34,9 @@ let card_data = [
     }
 ];
 function buildCards() {
-    let cards_elem = $('.card_wrapper');
+    console.log("in build cards");
     card_data.forEach(function (card, index) {
-        let card_pair =
+        document.getElementById('card_wrapper').insertAdjacentHTML('afterend',
             '<div class="card">'+
             '  <div class="card-back card-face">' +
             '    <img class="dice dice-top-left" src="assets/images/dice.png">'+
@@ -68,8 +68,7 @@ function buildCards() {
             '      <img class="dice dice-bottom-right" src="assets/images/dice.png">' +
             '      <img class="win-card" src="assets/images/' +  card['image'] + '">' +
             '   </div>' +
-            '</div>';
-        //cards_elem.append(card_pair);
-        $(".card_wrapper" ).insertAfter(card_pair);
+            '</div>'
+        );
     });
 }
