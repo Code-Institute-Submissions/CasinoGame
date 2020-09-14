@@ -82,6 +82,11 @@ body {
     display: inline;
 }
 
+.card_wrapper
+ {
+     display:none;
+ }
+
 .card {
 	position: relative;
 	height: 175px;

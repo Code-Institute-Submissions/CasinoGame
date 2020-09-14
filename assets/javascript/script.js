@@ -19,7 +19,9 @@ class AudioController {
 	}
 
 	flip() {
-		this.flipsound.play();
+        if(!this.muted){
+        this.flipsound.play();
+        }
 	}
 
 	match() {
@@ -193,8 +195,10 @@ function ready() {
 if (document.readyState == 'loading') {
 	document.addEventListener('DOMContentLoaded', ready);
 } else {
-	ready();
-}
+    console.log("building_cards");
+buildCards();
+    ready();
+} 
 
 
 
