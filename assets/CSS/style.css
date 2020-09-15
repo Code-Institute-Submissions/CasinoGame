@@ -26,6 +26,7 @@ html {
 body {
 	margin: 0;
 	background: radial-gradient(#D00043, #4F001A);
+    text-align: center;
 }
 
 .page-title {
@@ -34,6 +35,11 @@ body {
 	font-weight: normal;
 	text-align: center;
 	font-size: 4em;
+}
+
+.flips
+{
+margin: 10px;
 }
 
 
@@ -50,6 +56,8 @@ body {
 	font-family: casinoflat, serif;
     color: #00EB70;
 	font-size: 4em;
+    text-align: center;
+    display:block;
 }
 
 .game-sound {
@@ -73,6 +81,9 @@ body {
 .speaker, .mute {
     width: auto;
     height: 40px;
+    display:block;
+      margin-left: auto;
+      margin-right:auto;
 }
 .game-sound.muted .speaker,
 .game-sound .mute {
