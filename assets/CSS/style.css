@@ -4,7 +4,7 @@
 }
 
 @font-face {
-	font-family: 'casinoflat';
+	font-family: 'sans-serif';
 	src: url(../fonts/casinoflat.ttf);
 }
 
@@ -35,11 +35,6 @@ body {
 	font-weight: normal;
 	text-align: center;
 	font-size: 4em;
-}
-
-.flips
-{
-margin: 10px;
 }
 
 

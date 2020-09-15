@@ -31,9 +31,11 @@ class AudioController {
 }
 
 	victory() {
+        if(!this.muted){
 		this.stopMusic();
 		this.victorysound.play();
-	}
+    }
+}
 
 	gameOver() {
         if(!this.muted){
