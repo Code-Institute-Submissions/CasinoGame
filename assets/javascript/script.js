@@ -25,8 +25,10 @@ class AudioController {
 	}
 
 	match() {
+        if(!this.muted){
 		this.matchsound.play();
-	}
+    }
+}
 
 	victory() {
 		this.stopMusic();
