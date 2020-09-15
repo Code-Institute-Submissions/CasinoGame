@@ -4,7 +4,7 @@
 }
 
 @font-face {
-	font-family: 'sans-serif';
+	font-family: 'casinoflat';
 	src: url(../fonts/casinoflat.ttf);
 }
 
@@ -35,6 +35,11 @@ body {
 	font-weight: normal;
 	text-align: center;
 	font-size: 4em;
+}
+
+#time-remaining, #flips {
+    font-family: arial, sans-serif;
+    font-weight: bold;
 }
 
 
