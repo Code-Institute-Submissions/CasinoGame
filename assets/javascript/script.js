@@ -10,8 +10,10 @@ class AudioController {
         this.muted = false;
 	}
 	startMusic() {
+        if(!this.muted){
 		this.bgmusic.play();
 	}
+    }
 
 	stopMusic() {
 		this.bgmusic.pause();
