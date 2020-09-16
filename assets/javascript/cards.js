@@ -2,7 +2,7 @@
 let card_data = [
     {
         'name': 'coins',
-        'image': 'coins.png'
+        'image': 'coins.png' alt="card" 
     },
     {
         'name': 'cherry',
