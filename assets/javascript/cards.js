@@ -2,7 +2,7 @@
 let card_data = [
     {
         'name': 'coins',
-        'image': 'coins.png' alt="card" 
+        'image': 'coins.png' 
     },
     {
         'name': 'cherry',
@@ -39,33 +39,33 @@ function buildCards() {
         document.getElementById('card_wrapper').insertAdjacentHTML('afterend',
             '<div class="card">'+
             '  <div class="card-back card-face">' +
-            '    <img class="dice dice-top-left" src="assets/images/dice.png">'+
-            '    <img class="dice dice-top-right" src="assets/images/dice.png">' +
-            '    <img class="dice dice-bottom-left" src="assets/images/dice.png">' +
-            '    <img class="dice dice-bottom-right" src="assets/images/dice.png">' +
+            '    <img class="dice dice-top-left" src="assets/images/dice.png" alt="card">'+
+            '    <img class="dice dice-top-right" src="assets/images/dice.png" alt="card">'+
+            '    <img class="dice dice-bottom-left" src="assets/images/dice.png" alt="card">'+
+            '    <img class="dice dice-bottom-right" src="assets/images/dice.png" alt="card">'+
             '    <img class="chip" src="assets/images/chip.png">' +
             '  </div> ' +
             '  <div class="card-front card-face">' +
-            '     <img class="dice dice-top-left" src="assets/images/dice.png">' +
-            '     <img class="dice dice-top-right" src="assets/images/dice.png">' +
-            '     <img class="dice dice-bottom-left" src="assets/images/dice.png">' +
-            '     <img class="dice dice-bottom-right" src="assets/images/dice.png">' +
+            '     <img class="dice dice-top-left" src="assets/images/dice.png" alt="card">'+
+            '     <img class="dice dice-top-right" src="assets/images/dice.png" alt="card">'+
+            '     <img class="dice dice-bottom-left" src="assets/images/dice.png" alt="card">'+
+            '     <img class="dice dice-bottom-right" src="assets/images/dice.png" alt="card">'+
             '     <img class="win-card" src="assets/images/' +  card['image'] + '">' +
             '  </div>' +
             '</div>' +
             '<div class="card">' +
             '   <div class="card-back card-face">' +
-            '      <img class="dice dice-top-left" src="assets/images/dice.png">' +
-            '      <img class="dice dice-top-right" src="assets/images/dice.png">' +
-            '      <img class="dice dice-bottom-left" src="assets/images/dice.png">' +
-            '      <img class="dice dice-bottom-right" src="assets/images/dice.png">' +
+            '      <img class="dice dice-top-left" src="assets/images/dice.png" alt="card">'+
+            '      <img class="dice dice-top-right" src="assets/images/dice.png" alt="card">'+
+            '      <img class="dice dice-bottom-left" src="assets/images/dice.png" alt="card">'+
+            '      <img class="dice dice-bottom-right" src="assets/images/dice.png" alt="card">'+
             '      <img class="chip" src="assets/images/chip.png">' +
             '   </div>' +
             '   <div class="card-front card-face">' +
-            '      <img class="dice dice-top-left" src="assets/images/dice.png">' +
-            '      <img class="dice dice-top-right" src="assets/images/dice.png">' +
-            '      <img class="dice dice-bottom-left" src="assets/images/dice.png">' +
-            '      <img class="dice dice-bottom-right" src="assets/images/dice.png">' +
+            '      <img class="dice dice-top-left" src="assets/images/dice.png" alt="card">'+
+            '      <img class="dice dice-top-right" src="assets/images/dice.png" alt="card">'+
+            '      <img class="dice dice-bottom-left" src="assets/images/dice.png" alt="card">'+
+            '      <img class="dice dice-bottom-right" src="assets/images/dice.png" alt="card">'+
             '      <img class="win-card" src="assets/images/' +  card['image'] + '">' +
             '   </div>' +
             '</div>'
