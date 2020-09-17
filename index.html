@@ -5,14 +5,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
       <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
       <title>Lucky Casino</title>
    </head>
    <body>
-   <!-- GAME TITLE -->
+      <!-- GAME TITLE -->
       <h1 class="page-title">Lucky Casino</h1>
       <div class="overlay-text visible">
          <h1 style="font-size:15vw;">Click To Start</h1>
@@ -27,34 +27,38 @@
          <h1 style="font-size:15vw;">WINNER</h1>
          <span class="overlay-text-small">Click to Restart Game</span>
       </div>
-<div class="game-container">
-    <div class="game-info-container">
-    <!-- CLOCK SECTION -->
-        <div class="game-info"><h1>
-            Clock <span id="time-remaining">60</span></h1>
-        </div>
-        <!-- MUTE SECTION -->
-        <div class="game-sound" id="game-sound">
-            <h1><span id="sound"></span>
-                <img class="speaker" id="speaker" src="assets/images/speaker-green.png" alt="speaker">
-                <img class="mute" id="mute" src="assets/images/muted.png" alt="speaker_muted"></h1>
-        </div>
-        <!-- FLIPS SECTION -->
-        <div class="game-info"><h1>
-            Flips <span id="flips">0</span></h1>
-        </div>
-    </div>
-    <div id="card_wrapper"></div>
-</div>      
-<!-- SCRIPT FILES -->
-<script src="assets/javascript/cards.js"></script>
-<script src="assets/javascript/script.js"></script>
-
-<!-- AUDIO FILES -->
-<audio id="bgMusic" src="assets/audio/bgmusic.mp3"></audio>
-<audio id="flipSound" src="assets/audio/flip.mp3"></audio>
-<audio id="matchSound" src="assets/audio/arcade.mp3"></audio>
-<audio id="victorySound" src="assets/audio/victory.mp3"></audio>
-<audio id="looseSound" src="assets/audio/lose.mp3"></audio>
+      <div class="game-container">
+         <div class="game-info-container">
+            <!-- CLOCK SECTION -->
+            <div class="game-info">
+               <h1>
+                  Clock <span id="time-remaining">60</span>
+               </h1>
+            </div>
+            <!-- MUTE SECTION -->
+            <div class="game-sound" id="game-sound">
+               <h1><span id="sound"></span>
+                  <img class="speaker" id="speaker" src="assets/images/speaker-green.png" alt="speaker">
+                  <img class="mute" id="mute" src="assets/images/muted.png" alt="speaker_muted">
+               </h1>
+            </div>
+            <!-- FLIPS SECTION -->
+            <div class="game-info">
+               <h1>
+                  Flips <span id="flips">0</span>
+               </h1>
+            </div>
+         </div>
+         <div id="card_wrapper"></div>
+      </div>
+      <!-- SCRIPT FILES -->
+      <script src="assets/javascript/cards.js"></script>
+      <script src="assets/javascript/script.js"></script>
+      <!-- AUDIO FILES -->
+      <audio id="bgMusic" src="assets/audio/bgmusic.mp3"></audio>
+      <audio id="flipSound" src="assets/audio/flip.mp3"></audio>
+      <audio id="matchSound" src="assets/audio/arcade.mp3"></audio>
+      <audio id="victorySound" src="assets/audio/victory.mp3"></audio>
+      <audio id="looseSound" src="assets/audio/lose.mp3"></audio>
    </body>
 </html>
