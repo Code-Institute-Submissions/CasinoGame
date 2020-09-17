@@ -5,7 +5,9 @@ class AudioController {
       this.matchsound = document.getElementById('matchSound');
       this.victorysound = document.getElementById('victorySound');
       this.losesound = document.getElementById('looseSound');
-
+		this.bgmusic.volume = 0.5;
+        this.bgmusic.loop = true;
+        this.muted = false;
 	}
 	startMusic() {
 
