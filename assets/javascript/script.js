@@ -10,21 +10,24 @@ class AudioController {
         this.muted = false;
 	}
 	startMusic() {
-        if(!this.muted){
+
 		this.bgmusic.play();
-	}
+
     }
 
 	stopMusic() {
+        if(!this.muted){
 		this.bgmusic.pause();
 		this.bgmusic.currentTime = 0;
-	}
+    }
+}
 
 	flip() {
         if(!this.muted){
         this.flipsound.play();
         }
-	}
+    }
+
 
 	match() {
         if(!this.muted){
@@ -179,7 +182,7 @@ class casinogame {
 function ready() {
 	let overlays = Array.from(document.getElementsByClassName('overlay-text'));
 	let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new casinogame(60, cards);
+    let game = new casinogame(3, cards);
     let muteButton = document.getElementById('game-sound');
     muteButton.addEventListener("click", muteFunction);
  function muteFunction() {
