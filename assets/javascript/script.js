@@ -1,65 +1,65 @@
 class AudioController {
-   constructor() {
-      this.bgmusic = document.getElementById('bgMusic');
-      this.flipsound = document.getElementById('flipSound');
-      this.matchsound = document.getElementById('matchSound');
-      this.victorysound = document.getElementById('victorySound');
-      this.losesound = document.getElementById('looseSound');
-		this.bgmusic.volume = 0.5;
+    //build out audio controller for game
+    constructor() {
+        this.bgmusic = document.getElementById('bgMusic');
+        this.flipsound = document.getElementById('flipSound');
+        this.matchsound = document.getElementById('matchSound');
+        this.victorysound = document.getElementById('victorySound');
+        this.losesound = document.getElementById('looseSound');
+        this.bgmusic.volume = 0.5;
         this.bgmusic.loop = true;
         this.muted = false;
-	}
-	startMusic() {
-
-		this.bgmusic.play();
-
     }
-
-	stopMusic() {
-        if(!this.muted){
-		this.bgmusic.pause();
-		this.bgmusic.currentTime = 0;
-    }
-}
-
-	flip() {
-        if(!this.muted){
-        this.flipsound.play();
+    startMusic() {
+        //plays that background music, but stop any end of game stuff first
+        this.victorysound.pause();
+        this.losesound.pause();
+        if (!this.muted) {
+            this.bgmusic.play();
         }
     }
-
-
-	match() {
-        if(!this.muted){
-		this.matchsound.play();
+    stopMusic() {
+        //stop the background music
+        this.bgmusic.pause();
+        this.bgmusic.currentTime = 0;
     }
-}
-
-	victory() {
-        if(!this.muted){
-		this.stopMusic();
-		this.victorysound.play();
-    }
-}
-
-	gameOver() {
-        if(!this.muted){
-		this.stopMusic();
-        this.losesound.play();
+    flip() {
+        //flipping card audio
+        if (!this.muted) {
+            this.flipsound.play();
         }
     }
-    
+    match() {
+        //matching card audio
+        if (!this.muted) {
+            this.matchsound.play();
+        }
+    }
+    victory() {
+        //end game winner music
+        if (!this.muted) {
+            this.stopMusic();
+            this.victorysound.play();
+        }
+    }
+    gameOver() {
+        //end game looser music
+        if (!this.muted) {
+            this.stopMusic();
+            this.losesound.play();
+        }
+    }
     togglemusic() {
+        // initiated for user clicking sound or mute button, toggles the class and value for the audio being muted or not
         console.log("muted, before switch: ", this.muted);
         let btn = document.getElementById('game-sound');
-        if(!this.muted){
-            this.stopMusic();
+        if (!this.muted) {
             this.muted = true;
+            this.stopMusic();
             btn.classList.add('muted');
-        }
-        else{
-            this.startMusic();
+        } else {
             this.muted = false;
+            this.startMusic();
             btn.classList.remove('muted');
         }
         console.log("muted, after switch: ", this.muted);
