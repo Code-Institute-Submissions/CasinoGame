@@ -1,13 +1,11 @@
 class AudioController {
-	constructor() {
-		this.bgmusic = new Audio('assets/audio/bgmusic.mp3');
-		this.flipsound = new Audio('assets/audio/flip.mp3');
-		this.matchsound = new Audio('assets/audio/arcade.mp3');
-		this.victorysound = new Audio('assets/audio/victory.mp3');
-		this.losesound = new Audio('assets/audio/lose.mp3');
-		this.bgmusic.volume = 0.5;
-        this.bgmusic.loop = true;
-        this.muted = false;
+   constructor() {
+      this.bgmusic = document.getElementById('bgMusic');
+      this.flipsound = document.getElementById('flipSound');
+      this.matchsound = document.getElementById('matchSound');
+      this.victorysound = document.getElementById('victorySound');
+      this.losesound = document.getElementById('looseSound');
+
 	}
 	startMusic() {
 
