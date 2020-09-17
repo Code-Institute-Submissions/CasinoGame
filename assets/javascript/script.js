@@ -182,7 +182,7 @@ class casinogame {
 function ready() {
 	let overlays = Array.from(document.getElementsByClassName('overlay-text'));
 	let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new casinogame(3, cards);
+    let game = new casinogame(60, cards);
     let muteButton = document.getElementById('game-sound');
     muteButton.addEventListener("click", muteFunction);
  function muteFunction() {

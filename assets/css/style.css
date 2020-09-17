@@ -1,13 +1,15 @@
+/*font imported for game use*/
 @font-face {
 	font-family: 'casino';
 	src: url(../fonts/casino.ttf);
 }
-
+/*font imported for game use*/
 @font-face {
 	font-family: 'casinoflat';
 	src: url(../fonts/casinoflat.ttf);
 }
 
+/*h1 font style casino*/
 h1 {
 	font-family: casino;
 }
@@ -17,18 +19,20 @@ h1 {
 }
 
 
-/*setting the tone of the background colour*/
+
 
 html {
 	min-height: 100vh;
 }
 
+/*backlground colour with a radial gradient for a better effect*/
 body {
 	margin: 0;
 	background: radial-gradient(#D00043, #4F001A);
     text-align: center;
 }
 
+/*page title attributes*/
 .page-title {
 	color: #EEB252;
 	font-family: casino, serif;
@@ -37,21 +41,21 @@ body {
 	font-size: 4em;
 }
 
+/*time remaining font style applied due to the casino font issue mentioned in the testing*/
 #time-remaining, #flips {
     font-family: arial, sans-serif;
     font-weight: bold;
 }
 
 
-/* -1 very last column*/
+/* -1 very last column of the card*/
 .game-info-container {
 	grid-column: 1 / -1;
 	display: flex;
 	justify-content: space-between;
 }
 
-/*green color if required #00EB70*/
-
+/*game-info styling attributes*/
 .game-info {
 	font-family: casinoflat, serif;
     color: #00EB70;
@@ -60,6 +64,7 @@ body {
     display:block;
 }
 
+/*game-sound styling attributes*/
 .game-sound {
 	font-family: casinoflat, serif;
     color: #00EB70;
@@ -67,8 +72,7 @@ body {
 }
 
 
-/*center the cards there in the middle with correct spacing*/
-
+/*center the cards to the middle of the page with the correct spacing*/
 .game-container {
 	display: grid;
 	grid-template-columns: repeat(4, auto);
@@ -77,6 +81,8 @@ body {
 	justify-content: center;
     perspective: 500px; 
 }
+
+/*speaker setting for the mute button and positioning.*/
 
 .speaker, .mute {
     width: auto;
@@ -105,11 +111,8 @@ body {
     background-color:transparent; 
 }
 
-/* cursor attempt review
-.card:hover {
-    cursor: url("assets/images/cursor.ani"), auto;
-}*/
 
+/*card face styling, setup and positioning */
 .card-face {
 	position: absolute;
 	width: 100%;
@@ -125,21 +128,21 @@ body {
     transition: transform 500ms ease-in-out;
 }
 
+/*rotating action of the card using 180degrees*/
 .card.visible .card-back {
     transform: rotateY(-180deg);
 }
-
+/*rotating horizontal axis*/
 .card.visible .card-front {
        transform: rotateY(0)
 }
 
 /*matched class to sequence the cards together*/
-
 .card.matched .win-card {
 animation: dance 1s linear infinite 500ms;
 }
 
-
+/*Overlay-text for the lick to start, game over and victory screen*/
 .overlay-text {
     display: none;
     position: fixed;
@@ -154,11 +157,13 @@ animation: dance 1s linear infinite 500ms;
     font-family: casino, serif;
 }
 
+/*Overlay-text-small text size and positioning*/
 .overlay-text-small {
     font-size: .3em;
     text-align: center;
 }
 
+/*Overlay-text-visible speed of the overlay text displaying*/
 .overlay-text.visible {
     display: flex;
     flex-direction: column;
@@ -166,6 +171,7 @@ animation: dance 1s linear infinite 500ms;
 
 }
 
+/*overlay growing action and settings*/
 @keyframes overlay-grow {
   from {
     background-color: rgba(0, 0, 0, 0);
@@ -177,6 +183,7 @@ animation: dance 1s linear infinite 500ms;
   }
 }
 
+/*Cards dancing action and settings*/
 @keyframes dance {
     0%, 100% {
         transform: rotate(0);
@@ -190,25 +197,29 @@ animation: dance 1s linear infinite 500ms;
         
     }
 }
-
+/*card-back  styling attributes*/
 .card-back {
     background-color: black;
     border-color: #EEB252;
 }
+
+/*card-front styling attributes*/
 .card-front {
 transform: rotateY(180deg);
 background-color: #00EB70;;
 }
 
+/*card-front:hover scaling attribute*/
 .card-front:hover .win-card {
     transform: scale(1);
 }
-
+/*win-card transforming attribute using the speed the card transforms on the won card*/
 .win-card {
     transform: scale(.9);
     transition: transform 100ms ease-in-out;
 }
 
+/*dice transforming attribute and style settings with the action information provided e.g. speed of transition*/
 .dice
 {
     position: absolute;
@@ -219,7 +230,6 @@ background-color: #00EB70;;
 
 
 /* enhance the dice to go bigger in respects to a zooming in view*/
-
 .card-face:hover .dice
 {
 width:70px;
@@ -227,7 +237,7 @@ height: 70px;
 
 }
 
-
+/*chip attributes*/
 .chip
 {
     position: absolute;
@@ -235,6 +245,7 @@ height: 70px;
     height: 60px;
 }
 
+/*win-card attributes*/
 .win-card
 {
     position: absolute;
@@ -242,23 +253,27 @@ height: 70px;
     height: 60px;
 }
 
+/*dice-top-left rotating attributes*/
 .dice-top-left {
 	transform: rotate(270deg);
 	top: 0;
 	left: 0;
 }
 
+/*dice-top-rightrotating attributes*/
 .dice-top-right {
 	top: 0;
 	right: 0;
 }
 
+/*dice-bottom-left rotating attributes*/
 .dice-bottom-left {
 	transform: rotate(180deg);
 	bottom: 0;
 	left: 0;
 }
 
+/*dice-bottom-right rotating attributes*/
 .dice-bottom-right {
 	transform: rotate(90deg);
 	bottom: 0;
@@ -266,9 +281,7 @@ height: 70px;
 }
 
 /*spin element added as required below credit to https://codepen.io/teerapuch/pen/vLJXeR for the code*/
-
 .chip, .dice {
-
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
