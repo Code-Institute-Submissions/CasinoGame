@@ -75,7 +75,7 @@ class casinogame {
         this.ticker = document.getElementById('flips');
         this.audioController = new AudioController();
     }
-	//corect
+	/*start game action and game in process*/
    startGame() {
         this.cardToCheck = null;
         this.totalClicks = 0;
@@ -92,14 +92,14 @@ class casinogame {
         this.timer.innerText = this.timeRemaining;
         this.ticker.innerText = this.totalClicks;
     }
-
+/*hide card display*/
     hideCards() {
         this.cardsArray.forEach(card => {
             card.classList.remove('visible');
             card.classList.remove('matched');
         });
     }
-
+/*flip card function*/
     flipCard(card) {
         if(this.canFlipCard(card)) {
             this.audioController.flip();
@@ -113,6 +113,7 @@ class casinogame {
                 this.cardToCheck = card;
         }
     }
+    /* check for cards matching */
     checkForCardMatch(card) {
         if(this.getCardType(card) === this.getCardType(this.cardToCheck))
             this.cardMatch(card, this.cardToCheck);
@@ -121,6 +122,7 @@ class casinogame {
 
         this.cardToCheck = null;
     }
+    /*idenfying the cards match using card 1 and card 2*/
     cardMatch(card1, card2) {
         this.matchedCards.push(card1);
         this.matchedCards.push(card2);
@@ -130,7 +132,7 @@ class casinogame {
         if(this.matchedCards.length === this.cardsArray.length)
             this.victory(); 
     }
-    
+    /*Incorrect cards rejected */
     cardMisMatch(card1, card2) {
         this.busy = true;
         setTimeout(() => {
@@ -144,7 +146,7 @@ class casinogame {
         return card.getElementsByClassName('win-card')[0].src;
     }
     
-	//corect
+/*timer countdown*/
     startCountDown() {
         return setInterval(() => {
             this.timeRemaining--;
@@ -153,19 +155,19 @@ class casinogame {
                 this.gameOver();
         }, 1000);
     }
-
+/*victory visible action when the game is won*/
 	gameOver() {
 		clearInterval(this.countDown);
 		this.audioController.gameOver();
 		document.getElementById('game-over-text').classList.add('visible');
 	}
-
+/*victory visible action when the game is lost*/
 	victory() {
 		clearInterval(this.countDown);
 		this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
 	}
-	//corect
+	/*card shuffling function*/
     shuffleCards() {
         for(let i = this.cardsArray.length - 1; i > 0; i--) {
             let randIndex = Math.floor(Math.random() * (i+1));
@@ -174,6 +176,7 @@ class casinogame {
         }
     }
 
+    /*Check to see if cards match correctly two similiar cards are the same*/
     canFlipCard(card) {
         return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
