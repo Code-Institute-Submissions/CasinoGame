@@ -205,24 +205,24 @@ outcome of the project work.
 The active game mode has the game
 title clock, sound control, flip counter and cards.
 
-�When a user clicks on a card, it animates as it flips over
+* When a user clicks on a card, it animates as it flips over
 and the face value is displayed.
 
-�When the user hovers over the image the dice enlarge and roll
+* When the user hovers over the image the dice enlarge and roll
 to the center of the card.
 
-�When the user clicks and matches the images on the game the
+* When the user clicks and matches the images on the game the
 user will hear the flip sound and the cards will sway left to right.
 
-�If the user gets the
+* If the user gets the
 pairs wrong both cards will display for a very short period before spinning
 back to be hidden.
 
-�Below shows the mute
+* Below shows the mute
 button being included in the game. The image below with the speaker added and
 the vibrations indicates the sound is playing in the game at this moment.
 
-�The below shows a
+* The below shows a
 speaker with and X this will indicate the sound has been muted in the game. The
 sounds images have been customer made by putting a square and rectangle
 together with a bendable line fore the sound vibrations. The x was made with a
@@ -320,15 +320,15 @@ used HTML, CSS and JavaScript programming languages.
      website.
 * Boostrap
 
-�[www.dafont.com](http://www.dafont.com)
+* [www.dafont.com](http://www.dafont.com)
 
-�[Basalmiq](https://balsamiq.com/wireframes/desktop/) - Used for wireframe
+* [Basalmiq](https://balsamiq.com/wireframes/desktop/) - Used for wireframe
 creation using professional tools to support the design
 
-�[Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) - Audit you used it
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) - Audit you used it
 for your accessibility testing
 
-�[Favicon](https://favicon.io/favicon-generator/) - Used to provide unique logo for
+* [Favicon](https://favicon.io/favicon-generator/) - Used to provide unique logo for
 the web page icon section
 
 * [Coolers](https://coolors.co/)
@@ -346,13 +346,13 @@ the web page icon section
 I used the following websites and
 pasted my code into it to ensure the code had no syntax errors:
 
-�<b>JavaScript -</b>[<b>https://jshint.com/</b>](https://jshint.com/)
+* <b>JavaScript -</b>[<b>https://jshint.com/</b>](https://jshint.com/)
 
-�<b>HTML -</b>[<b>https://validator.w3.org/</b>](https://validator.w3.org/)
+* <b>HTML -</b>[<b>https://validator.w3.org/</b>](https://validator.w3.org/)
 
-�<b>CSS -</b>[<b>https://jigsaw.w3.org/css-validator/</b>](https://jigsaw.w3.org/css-validator/)
+* <b>CSS -</b>[<b>https://jigsaw.w3.org/css-validator/</b>](https://jigsaw.w3.org/css-validator/)
 
-�<b>Lighthouse -</b>[<b>https://developers.google.com/web/tools/lighthouse/?utm_source=devtools</b>](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
+* <b>Lighthouse -</b>[<b>https://developers.google.com/web/tools/lighthouse/?utm_source=devtools</b>](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
 
 ## User Stories Testing
 
@@ -612,7 +612,7 @@ To clone the project from GitHub:
 * Watermelon
      Image - [https://pngtree.com/freepng/cartoon-summer-sweet-watermelon-png-transparent-bottom_4573609.html](https://pngtree.com/freepng/cartoon-summer-sweet-watermelon-png-transparent-bottom_4573609.html)
 * 777
-     images � [https://www.kindpng.com/imgv/bxJiw_three-seven-jackpot-png-clip-art-graphic-design/](https://www.kindpng.com/imgv/bxJiw_three-seven-jackpot-png-clip-art-graphic-design/)
+     images *  [https://www.kindpng.com/imgv/bxJiw_three-seven-jackpot-png-clip-art-graphic-design/](https://www.kindpng.com/imgv/bxJiw_three-seven-jackpot-png-clip-art-graphic-design/)
 * Jackpot
      image - [https://www.searchpng.com/2019/04/24/jackpot-png-image-free-download/](https://www.searchpng.com/2019/04/24/jackpot-png-image-free-download/)
 * Bells
@@ -627,46 +627,46 @@ To clone the project from GitHub:
      Dice Image - [https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/](https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/)
 
 * Poker
-     Chip -� [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
+     Chip -*  [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
 * All
      sounds from the youtube free sounds library [https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic](https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic)
 * Original
      Fail Sound - Operator Error (Sting)
 
-�Win Music - Left U Into (Sting) -
+* Win Music - Left U Into (Sting) -
 
 ## Code
 
-�Insert element added
+* Insert element added
 to the code for the pictures loading correctly. Provided by [https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
 
-�Used for the image at
+* Used for the image at
 the beginning of the document showing the code in a display device provided by [http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)
 
-�Web Dev simplified
+* Web Dev simplified
 & PortEXE provided support and guidance on how a flip card game works
 correctly great helped in understanding how the code works together and the
 functionality. [https://www.youtube.com/watch?v=28VfzEiJgy4](https://www.youtube.com/watch?v=28VfzEiJgy4) & [https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be](https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be)
 
-�credit to
+* credit to
 https://codepen.io/teerapuch/pen/vLJXeR for the spinning action for the items
 on the cards e.g. dice and chip images.
 
 ## Acknowledgements
 
-�I would like to thank Anthony Ngene whose
+* I would like to thank Anthony Ngene whose
 guidance and determination to make succeed keeps the work going daily. Takes
 the time to discuss my ideas and why and tries to guide me in the right
 direction asking how this will be achieved. Great mentor throughout the course
 and ensures am on top of my planning trying to reach my planned targets for the
 project completion.
 
-�I would like to thank Malia Havlicek who gave me
+* I would like to thank Malia Havlicek who gave me
 time to support me and help me with my coding concerns. I have been learning a
 lot and pointed in the right direction how to achieve certain aspects of codes
 and issues. Always explained the concept behind why its needed how it works and
 ensured I understood so there was no uncertainty.� Been a great support on my quest to learning
 more and glad I�ve got a friend in the coding world.
 
-�For my family who ignored me so I would progress
+* For my family who ignored me so I would progress
 with my work and do the best job possible.
