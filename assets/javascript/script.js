@@ -51,7 +51,6 @@ class AudioController {
 	}
 	togglemusic() {
 		// initiated for user clicking sound or mute button, toggles the class and value for the audio being muted or not
-		console.log("muted, before switch: ", this.muted);
 		let btn = document.getElementById('game-sound');
 		if (!this.muted) {
 			this.muted = true;
@@ -62,7 +61,6 @@ class AudioController {
 			this.startMusic();
 			btn.classList.remove('muted');
 		}
-		console.log("muted, after switch: ", this.muted);
 	}
 }
 
@@ -190,7 +188,6 @@ function ready() {
 	muteButton.addEventListener("click", muteFunction);
 
 	function muteFunction() {
-		console.log("testing an hope it works");
 		game.audioController.togglemusic();
 	}
 
@@ -206,7 +203,7 @@ function ready() {
 		});
 	});
 }
-console.log("building_cards");
+/*building_cards action*/
 buildCards();
 if (document.readyState == 'loading') {
 	document.addEventListener('DOMContentLoaded', ready);

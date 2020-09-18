@@ -34,7 +34,7 @@ let card_data = [
     }
 ];
 function buildCards() {
-    console.log("in build cards");
+    /*in build cards*/
     card_data.forEach(function (card, index) {
         document.getElementById('card_wrapper').insertAdjacentHTML('afterend',
             '<div class="card">'+
