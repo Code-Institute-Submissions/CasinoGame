@@ -1,4 +1,4 @@
-# CasinoGame# Lucky Casino
+# Lucky Casino
 
 # Introduction
 
