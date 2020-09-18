@@ -4,7 +4,7 @@
 
 Lucky Casino is a
 memory game using cards and the users are required to match pairs via the same
-picture. This website will use the user�s memory and skill in trying to match
+picture. This website will use the user's memory and skill in trying to match
 the pairs before the time runs out. The website can be used by everyone and
 will be fun and challenging for everybody who has an attempt. The site will be
 bright, colorful and will have a host of interactive content. This will include
