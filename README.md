@@ -192,6 +192,19 @@ Providing information on how and why changes have been made on the project and
 the game. This will always be to the benefit of the design, layout and final
 outcome of the project work.
 
+![Wireframe Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image5.png)
+
+![Wireframe Image2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image6.png)
+
+![Wireframe Image3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image8.png)
+
+![Wireframe Image4](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image9.png)
+
+![Wireframe Image5](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image10.png)
+
+![Wireframe Image6](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image11.png)
+
+
 # Features
 
 ## Existing Features
@@ -205,17 +218,23 @@ outcome of the project work.
      click overlays the playing board to ensure the clock starts when the user
      is settled and ready to play, so they could maximize their chance of completing
      the game.
+     
+![Game Start Image](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image12.png)     
 
 ### Active Game Mode
 
 The active game mode has the game
 title clock, sound control, flip counter and cards.
 
+![Active Game Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image13.png)
+
 * When a user clicks on a card, it animates as it flips over
 and the face value is displayed.
 
 * When the user hovers over the image the dice enlarge and roll
 to the center of the card.
+
+![Active Game Image2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image14.png)
 
 * When the user clicks and matches the images on the game the
 user will hear the flip sound and the cards will sway left to right.
