@@ -280,6 +280,18 @@ capital X included.
      
 ![Game Over Modal](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image19.png)
 
+## Scalable and Easy to Maintain Code
+
+The card_data code has been amended and is now a json object so
+if required the number of cards in the game can be increased. This can be the
+difference including a more difficult game or easier game by decreasing the
+difficult with less cards or increasing the difficulty with more cards. This
+would therefore change the theme of the game as there is either a race against
+time where the user needs to be quicker or can complete the game patiently as
+they have less cards to pair up together. The buildCard loops through using a
+dynamic affect generating the game outlay which makes it easy to maintain
+reference to the file with the stuff being located in by the directory path.
+
 ![Winner](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image20.png)
 
 ## Features to Improve/Implement
@@ -347,21 +359,17 @@ used HTML, CSS and JavaScript programming languages.
      for the development of the website and using the platform to complete the
      website as required. This helped fulfil the potential to complete the
      website.
-* Boostrap
-
-* [www.dafont.com](http://www.dafont.com)
-
+* [Boostrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Quickly design and customize 
+responsive mobile-first sites with Bootstrap. Bootstrap helped with the mobile design and aspects when desigining the game.
+* [Dafont](http://www.dafont.com/) - This particualr website provided the 
+casino style font I was requiring for the game design.
 * [Basalmiq](https://balsamiq.com/wireframes/desktop/) - Used for wireframe
 creation using professional tools to support the design
-
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) - Audit you used it
 for your accessibility testing
-
 * [Favicon](https://favicon.io/favicon-generator/) - Used to provide unique logo for
 the web page icon section
-
-* [Coolers](https://coolors.co/)
-     - Color Scheme generator, used to fine tune color selection and find hover
+* [Coolers](https://coolors.co/) - Color Scheme generator, used to fine tune color selection and find hover
      colors
 * [Markdown Table Generator](Markdown%20Table%20Generator) - Used to help with
      documentation table formatting
@@ -375,13 +383,13 @@ the web page icon section
 I used the following websites and
 pasted my code into it to ensure the code had no syntax errors:
 
-* <b>JavaScript -</b>[<b>https://jshint.com/</b>](https://jshint.com/)
+* JavaScript -[https://jshint.com/](https://jshint.com/)
 
-* <b>HTML -</b>[<b>https://validator.w3.org/</b>](https://validator.w3.org/)
+* HTML -[https://validator.w3.org/](https://validator.w3.org/)
 
-* <b>CSS -</b>[<b>https://jigsaw.w3.org/css-validator/</b>](https://jigsaw.w3.org/css-validator/)
+* CSS -[https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-* <b>Lighthouse -</b>[<b>https://developers.google.com/web/tools/lighthouse/?utm_source=devtools</b>](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
+* Lighthouse -[<b>https://developers.google.com/web/tools/lighthouse/?utm_source=devtools](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
 
 ## User Stories Testing
 
@@ -422,8 +430,8 @@ test the game on. This would ensure this works on multiple devices.
 
 ## Lighthouse Audit
 
-"Identify and fix common problems
-that affect your sites performance, accessibility, and user experience."
+Identify and fix common problems
+that affect your sites performance, accessibility, and user experience.
 
 Accessibility testing was
 conducted on the site to ensure it was suitable and performing to a suitable
@@ -551,22 +559,19 @@ To clone the project from GitHub:
 * Bells
      image - [https://www.searchpng.com/2018/12/16/christmas-bells-clipart-png-hd-christmas-bells-clipart-png-image-free-download/](https://www.searchpng.com/2018/12/16/christmas-bells-clipart-png-hd-christmas-bells-clipart-png-image-free-download/)
 * Coins
-     - [https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/](https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/)
+     image - [https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/](https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/)
 * Lemon
-     - [https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png](https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png)
+     image - [https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png](https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png)
 * Cherry
      image - [https://www.pinclipart.com/pindetail/iimRTw_cherries-clipart-transparent-background-clip-art-png-transparent/](https://www.pinclipart.com/pindetail/iimRTw_cherries-clipart-transparent-background-clip-art-png-transparent/)
 * White
      Dice Image - [https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/](https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/)
-
 * Poker
-     Chip -*  [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
+     Chip -  [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
 * All
      sounds from the youtube free sounds library [https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic](https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic)
-* Original
-     Fail Sound - Operator Error (Sting)
-
-* Win Music - Left U Into (Sting) -
+* Original - Fail Sound - Operator Error (Sting) - List on the direct library it can be found by searching as there all ont he same page
+* Win Music - Left U Into (Sting) - List on the direct library it can be found by searching as there all ont he same page
 
 ## Code
 
