@@ -26,9 +26,9 @@ site functionality.
 
 ## Project objectives
 
-<b>Lucky Casinos main objective is to allow users to play an
+Lucky Casinos main objective is to allow users to play an
 engaging memory game with as little instruction as possible. The casino music,
-colors and race against the clock gears it to an audience of 18 years and up.</b>
+colors and race against the clock gears it to an audience of 18 years and up.
 
 ## Player Goals
 
@@ -42,20 +42,20 @@ colors and race against the clock gears it to an audience of 18 years and up.</b
 
 ## Developer Goals
 
-### * Demonstrate
+ Demonstrate
 a solid understanding of JavaScript
 
-### * Build
+* Build
 an intuitive and engaging game
 
-### * Build
+* Build
 up portfolio with a great project
 
-### * Make
+* Make
 the game easier to maintain and scalable for future features.
 
-different items that could be used for
-pictures. I wanted the page to be interactive and also provide the actions of a
+* Using various items such as pictures instead of graphics. I wanted the 
+page to be interactive and also provide the actions of a
 casino such e.g. dice rolling, chips rolling, happy music and certain font that
 would suit the game theme.
 
@@ -125,7 +125,11 @@ The font used for the game was from [www.dafont.com](http://www.dafont.com) it w
 tried several fonts amending the styles of the size and colour which wasn't
 suited. The website provided me a font that I thought would suit well on the
 website. It had the style that I was looking for and gave the font a better
-design overall on the webpage. Examples have been provided below.
+design overall on the webpage. The number font was used but in the bugs section this will describe
+the error found as a result the font used for the number was san-sarif instead. This was due to a counting 
+error when the game was in motion. As a result the font work alot better had a better
+presenation due to this amend.
+Examples have been provided below.
 
 ![Font Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image2.png)
 
@@ -265,14 +269,14 @@ capital X included.
 
 ### Game Over Modal
 
-* <b>There are two versions of the
-     game over, loser and winner. </b>
-* <b>The music is upbeat if the user
+* There are two versions of the
+     game over, loser and winner.
+*The music is upbeat if the user
      if victorious.</b>
-* <b>The music is doomed if the user
-     fails to beat the clock.</b>
-* <b>Both screens encourage the user
-     to play another game</b>
+* The music is doomed if the user
+     fails to beat the clock.
+* Both screens encourage the user
+     to play another game
      
 ![Game Over Modal](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image19.png)
 
@@ -328,20 +332,6 @@ this was not the aim of the game it was too ensure the game functions correctly
 and is visually attractive for the user to keep interested. This feature can be
 input once the game is working correctly 100%. The main function and goal is to
 ensure the game is working and working successfully.
-
-## Scalable and Easy to Maintain Code
-
-### Make Code easier to maintain
-
-The card_data code has been amended and is now a json object so
-if required the number of cards in the game can be increased. This can be the
-difference including a more difficult game or easier game by decreasing the
-difficult with less cards or increasing the difficulty with more cards. This
-would therefore change the theme of the game as there is either a race against
-time where the user needs to be quicker or can complete the game patiently as
-they have less cards to pair up together. The buildCard loops through using a
-dynamic affect generating the game outlay which makes it easy to maintain
-reference to the file with the stuff being located in by the directory path.
 
 # Technologies used
 
