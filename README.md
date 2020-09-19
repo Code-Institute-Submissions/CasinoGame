@@ -477,11 +477,13 @@ Desktop Accessibility Improvement
 
 ## Bugs Discovered
 
-![Bugs Discovered](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image29.png)
-![Bugs Discovered](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image30.png)
-![Bugs Discovered](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image31.png)
+![Bugs Discovered1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image29.png)
+![Bugs Discovered2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image30.png)
+![Bugs Discovered3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image31.png)
 
 1.a
+
+![Bug1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image33.png)
 
 ### Outstanding Defects
 
