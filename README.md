@@ -442,14 +442,14 @@ potentially work to its maximum performance. This is completed by selected the
 lighthouse option on the developer tool and generating a report for the selected
 device. This can be mobile or desktop devices.
 
-![Lighthouse Audit1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image25.png)
+![Lighthouse Audit1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image26.png)
 
 The
 results for mobile are 98 which is a worthy score for a website but I would
 look to improve the score where posisble this can be a future update and
 performance improvement.
 
-![Lighthouse Audit1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image26.png)
+![Lighthouse Audit2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image27.png)
 
 The
 result for desktop was 100 which is acceptable for the website and performance.
@@ -459,27 +459,27 @@ improvement.
 As you can see for both parts of
 the testing the accessibility is at 77 which isn't the best for that option and
 could do with improving. A few amends where completed and added the alt="card"
-code to each code in the card.js section e.g. <img class="dice
+code to each code in the card.js section e.g. '<img class="dice
 dice-bottom-right" src="assets/images/dice.png"
 alt="card">'+ and <img class="chip"
-src="assets/images/chip.png" alt="card">'+. This fixed
+src="assets/images/chip.png" alt="card">'+.' This fixed
 both the mobile and desktop accessibility and upgrade all scores to a better
 standard. This is indicated on the two images below mobile accessibility
 improvement and desktop accessibility improvement.
 
 Mobile Accessibility Improvement
 
-![Mobile Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image27.png)
+![Mobile Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image28.png)
 
 Desktop Accessibility Improvement
 
-![Desktop Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image28.png)
+![Desktop Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image29.png)
 
 ## Bugs Discovered
 
-![Bugs Discovered1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image29.png)
-![Bugs Discovered2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image30.png)
-![Bugs Discovered3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image31.png)
+![Bugs Discovered1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image30.png)
+![Bugs Discovered2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image31.png)
+![Bugs Discovered3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image32.png)
 
 1.a
 
