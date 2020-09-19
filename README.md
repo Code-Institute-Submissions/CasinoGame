@@ -241,19 +241,27 @@ to the center of the card.
 * When the user clicks and matches the images on the game the
 user will hear the flip sound and the cards will sway left to right.
 
+![Active Game Image3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image15.png)
+
 * If the user gets the
 pairs wrong both cards will display for a very short period before spinning
 back to be hidden.
 
+![Active Game Image4](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image16.png)
+
 * Below shows the mute
 button being included in the game. The image below with the speaker added and
 the vibrations indicates the sound is playing in the game at this moment.
+
+![Active Game Image5](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image17.png)
 
 * The below shows a
 speaker with and X this will indicate the sound has been muted in the game. The
 sounds images have been customer made by putting a square and rectangle
 together with a bendable line fore the sound vibrations. The x was made with a
 capital X included.
+
+![Active Game Image6](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image18.png)
 
 ### Game Over Modal
 
@@ -265,6 +273,10 @@ capital X included.
      fails to beat the clock.</b>
 * <b>Both screens encourage the user
      to play another game</b>
+     
+![Game Over Modal](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image19.png)
+
+![Winner](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image20.png)
 
 ## Features to Improve/Implement
 
