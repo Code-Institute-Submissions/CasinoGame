@@ -13,7 +13,7 @@ bright, colorful and will have a host of interactive content. This will include
 animations, music, sounds and high JavaScript content involved to improve the
 site functionality.
 
-Press the link to play [https://tomod24.github.io/CasinoGame/](https://tomod24.github.io/CasinoGame//)
+Click the link to play [hLucky Casino/](https://tomod24.github.io/CasinoGame//)
 
 * Fun game matching the pairs of
      cards together
