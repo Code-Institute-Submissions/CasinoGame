@@ -23,9 +23,10 @@ class AudioController {
 		this.bgmusic.pause();
 		this.bgmusic.currentTime = 0;
 	}
-	flip() {
+flip() {
 		//flipping card audio
 		if (!this.muted) {
+			this.flipsound.currentTime = 0;
 			this.flipsound.play();
 		}
 	}
