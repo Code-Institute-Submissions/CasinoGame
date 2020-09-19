@@ -1,5 +1,7 @@
 # Lucky Casino
 
+![Title Image](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image1.png)
+
 # Introduction
 
 Lucky Casino is a
@@ -24,9 +26,9 @@ site functionality.
 
 ## Project objectives
 
-<b>Lucky Casinos main objective is to allow users to play an
+Lucky Casinos main objective is to allow users to play an
 engaging memory game with as little instruction as possible. The casino music,
-colors and race against the clock gears it to an audience of 18 years and up.</b>
+colors and race against the clock gears it to an audience of 18 years and up.
 
 ## Player Goals
 
@@ -40,20 +42,20 @@ colors and race against the clock gears it to an audience of 18 years and up.</b
 
 ## Developer Goals
 
-### * Demonstrate
+ Demonstrate
 a solid understanding of JavaScript
 
-### * Build
+* Build
 an intuitive and engaging game
 
-### * Build
+* Build
 up portfolio with a great project
 
-### * Make
+* Make
 the game easier to maintain and scalable for future features.
 
-different items that could be used for
-pictures. I wanted the page to be interactive and also provide the actions of a
+* Using various items such as pictures instead of graphics. I wanted the 
+page to be interactive and also provide the actions of a
 casino such e.g. dice rolling, chips rolling, happy music and certain font that
 would suit the game theme.
 
@@ -123,9 +125,15 @@ The font used for the game was from [www.dafont.com](http://www.dafont.com) it w
 tried several fonts amending the styles of the size and colour which wasn't
 suited. The website provided me a font that I thought would suit well on the
 website. It had the style that I was looking for and gave the font a better
-design overall on the webpage. Examples have been provided below.
+design overall on the webpage. The number font was used but in the bugs section this will describe
+the error found as a result the font used for the number was san-sarif instead. This was due to a counting 
+error when the game was in motion. As a result the font work alot better had a better
+presenation due to this amend.
+Examples have been provided below.
 
-��� casino images
+![Font Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image2.png)
+
+![Font Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image3.png)
 
 ## Colours
 
@@ -137,6 +145,8 @@ need. Also, I tried and tested various colours and it didn't fit very well.
 This provided me with the idea to keep it with the topic the game is under.
 When people join or view the game/webpage they'll feel like it's a casino from
 the beginning. The colours used are have been displayed below.
+
+![Colour Image](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image4.png)
 
 ## Icons/Images
 
@@ -186,6 +196,21 @@ Providing information on how and why changes have been made on the project and
 the game. This will always be to the benefit of the design, layout and final
 outcome of the project work.
 
+![Wireframe Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image5.png)
+
+![Wireframe Image2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image6.png)
+
+![Wireframe Image3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image7.png)
+
+![Wireframe Image4](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image8.png)
+
+![Wireframe Image5](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image9.png)
+
+![Wireframe Image7](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image10.png)
+
+![Wireframe Image8](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image11.png)
+
+
 # Features
 
 ## Existing Features
@@ -199,11 +224,15 @@ outcome of the project work.
      click overlays the playing board to ensure the clock starts when the user
      is settled and ready to play, so they could maximize their chance of completing
      the game.
+     
+![Game Start Image](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image12.png)     
 
 ### Active Game Mode
 
 The active game mode has the game
 title clock, sound control, flip counter and cards.
+
+![Active Game Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image13.png)
 
 * When a user clicks on a card, it animates as it flips over
 and the face value is displayed.
@@ -211,16 +240,24 @@ and the face value is displayed.
 * When the user hovers over the image the dice enlarge and roll
 to the center of the card.
 
+![Active Game Image2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image14.png)
+
 * When the user clicks and matches the images on the game the
 user will hear the flip sound and the cards will sway left to right.
+
+![Active Game Image3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image15.png)
 
 * If the user gets the
 pairs wrong both cards will display for a very short period before spinning
 back to be hidden.
 
+![Active Game Image4](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image16.png)
+
 * Below shows the mute
 button being included in the game. The image below with the speaker added and
 the vibrations indicates the sound is playing in the game at this moment.
+
+![Active Game Image5](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image17.png)
 
 * The below shows a
 speaker with and X this will indicate the sound has been muted in the game. The
@@ -228,16 +265,34 @@ sounds images have been customer made by putting a square and rectangle
 together with a bendable line fore the sound vibrations. The x was made with a
 capital X included.
 
+![Active Game Image6](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image18.png)
+
 ### Game Over Modal
 
-* <b>There are two versions of the
-     game over, loser and winner. </b>
-* <b>The music is upbeat if the user
+* There are two versions of the
+     game over, loser and winner.
+*The music is upbeat if the user
      if victorious.</b>
-* <b>The music is doomed if the user
-     fails to beat the clock.</b>
-* <b>Both screens encourage the user
-     to play another game</b>
+* The music is doomed if the user
+     fails to beat the clock.
+* Both screens encourage the user
+     to play another game
+     
+![Game Over Modal](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image19.png)
+
+## Scalable and Easy to Maintain Code
+
+The card_data code has been amended and is now a json object so
+if required the number of cards in the game can be increased. This can be the
+difference including a more difficult game or easier game by decreasing the
+difficult with less cards or increasing the difficulty with more cards. This
+would therefore change the theme of the game as there is either a race against
+time where the user needs to be quicker or can complete the game patiently as
+they have less cards to pair up together. The buildCard loops through using a
+dynamic affect generating the game outlay which makes it easy to maintain
+reference to the file with the stuff being located in by the directory path.
+
+![Winner](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image20.png)
 
 ## Features to Improve/Implement
 
@@ -290,20 +345,6 @@ and is visually attractive for the user to keep interested. This feature can be
 input once the game is working correctly 100%. The main function and goal is to
 ensure the game is working and working successfully.
 
-## Scalable and Easy to Maintain Code
-
-### Make Code easier to maintain
-
-The card_data code has been amended and is now a json object so
-if required the number of cards in the game can be increased. This can be the
-difference including a more difficult game or easier game by decreasing the
-difficult with less cards or increasing the difficulty with more cards. This
-would therefore change the theme of the game as there is either a race against
-time where the user needs to be quicker or can complete the game patiently as
-they have less cards to pair up together. The buildCard loops through using a
-dynamic affect generating the game outlay which makes it easy to maintain
-reference to the file with the stuff being located in by the directory path.
-
 # Technologies used
 
 For the website the following programming languages have been
@@ -318,21 +359,17 @@ used HTML, CSS and JavaScript programming languages.
      for the development of the website and using the platform to complete the
      website as required. This helped fulfil the potential to complete the
      website.
-* Boostrap
-
-* [www.dafont.com](http://www.dafont.com)
-
+* [Boostrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Quickly design and customize 
+responsive mobile-first sites with Bootstrap. Bootstrap helped with the mobile design and aspects when desigining the game.
+* [Dafont](http://www.dafont.com/) - This particualr website provided the 
+casino style font I was requiring for the game design.
 * [Basalmiq](https://balsamiq.com/wireframes/desktop/) - Used for wireframe
 creation using professional tools to support the design
-
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) - Audit you used it
 for your accessibility testing
-
 * [Favicon](https://favicon.io/favicon-generator/) - Used to provide unique logo for
 the web page icon section
-
-* [Coolers](https://coolors.co/)
-     - Color Scheme generator, used to fine tune color selection and find hover
+* [Coolers](https://coolors.co/) - Color Scheme generator, used to fine tune color selection and find hover
      colors
 * [Markdown Table Generator](Markdown%20Table%20Generator) - Used to help with
      documentation table formatting
@@ -346,13 +383,13 @@ the web page icon section
 I used the following websites and
 pasted my code into it to ensure the code had no syntax errors:
 
-* <b>JavaScript -</b>[<b>https://jshint.com/</b>](https://jshint.com/)
+* JavaScript -[https://jshint.com/](https://jshint.com/)
 
-* <b>HTML -</b>[<b>https://validator.w3.org/</b>](https://validator.w3.org/)
+* HTML -[https://validator.w3.org/](https://validator.w3.org/)
 
-* <b>CSS -</b>[<b>https://jigsaw.w3.org/css-validator/</b>](https://jigsaw.w3.org/css-validator/)
+* CSS -[https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-* <b>Lighthouse -</b>[<b>https://developers.google.com/web/tools/lighthouse/?utm_source=devtools</b>](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
+* Lighthouse -[<b>https://developers.google.com/web/tools/lighthouse/?utm_source=devtools](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
 
 ## User Stories Testing
 
@@ -376,41 +413,10 @@ Various browsers were tested
 with the game link to ensure it would work on the browsers selected and
 available to use.
 
-|  |  | <b>Firefox Internet</b> | <b>Google Chrome</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Unmute button moves down due to the image difference potentially
-  fix required and improvement on the game |
+![Cross Browser Testing](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image21.png)
 
-|  |  | <b>Internet Edge</b> | <b>n/a</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | / | / | / | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | / | / | / | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | / | / | / | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | / | / | / | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | / | / |  | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | / | / | / | 15/09/2020 | Unmute button moves down due to the image difference
-  potentially fix required and improvement on the game |
+![Cross Browser Testing2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image22.png)
 
-<b>Note - Safari is not available
-to test therefore cannot test if it is suitable on the application/browser
-available.</b>
 
 ### Device Testing
 
@@ -418,42 +424,14 @@ To enable all device were
 tested and various device were explored tablets and mobiles where considered to
 test the game on. This would ensure this works on multiple devices.
 
-|  |  | <b>iPad Pro</b> | <b>Pixel 2</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Unmute button moves down due to the image difference potentially
-  fix required and improvement on the game |
+![Mobile Browser Testing1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image23.png)
 
-|  |  | <b>Huawei P20 Pro</b> | <b>Samsung Galaxy Tab</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Unmute button moves down due to the image difference potentially
-  fix required and improvement on the game |
+![Mobile Browser Testing2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image24.png)
 
 ## Lighthouse Audit
 
-"Identify and fix common problems
-that affect your sites performance, accessibility, and user experience."
+Identify and fix common problems
+that affect your sites performance, accessibility, and user experience.
 
 Accessibility testing was
 conducted on the site to ensure it was suitable and performing to a suitable
@@ -462,10 +440,16 @@ potentially work to its maximum performance. This is completed by selected the
 lighthouse option on the developer tool and generating a report for the selected
 device. This can be mobile or desktop devices.
 
+![Lighthouse Audit1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image25.png)
+
+![Lighthouse Audit2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image26.png)
+
 The
 results for mobile are 98 which is a worthy score for a website but I would
 look to improve the score where posisble this can be a future update and
 performance improvement.
+
+![Lighthouse Audit3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image27.png)
 
 The
 result for desktop was 100 which is acceptable for the website and performance.
@@ -474,75 +458,32 @@ improvement.
 
 As you can see for both parts of
 the testing the accessibility is at 77 which isn't the best for that option and
-could do with improving. A few amends where completed and added the alt="card"
-code to each code in the card.js section e.g. <img class="dice
+could do with improving. A few amends where completed and added the ```alt="card"```
+code to each code in the card.js section e.g. ```(<img class="dice
 dice-bottom-right" src="assets/images/dice.png"
-alt="card">'+ and <img class="chip"
-src="assets/images/chip.png" alt="card">'+. This fixed
+alt="card">'+) and (<img class="chip"
+src="assets/images/chip.png" alt="card">'+.)``` This fixed
 both the mobile and desktop accessibility and upgrade all scores to a better
 standard. This is indicated on the two images below mobile accessibility
 improvement and desktop accessibility improvement.
 
 Mobile Accessibility Improvement
 
+![Mobile Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image28.png)
+
 Desktop Accessibility Improvement
 
-�
+![Desktop Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image29.png)
 
 ## Bugs Discovered
 
-| <b>Features</b> | <b>Description</b> | <b>Steps to Reproduce</b> | <b>Resolution</b> |
-| <b>Clock Countdown</b> | When the game starts the game appears to work correctly. I noticed the clock was
-  counting down in a strange pattern. It went from 60 to 49 then back up to 59
-  and was counting down in a very strange pattern. Eventually the pattern would
-  get down to zero but the code would be counting down correctly on the
-  developer tool. The problem was the game wasn't counting down correct. This
-  caused visual problems for the game. This was spotted after the testing was complete.
-  (Indicated in image 1.a) | In the css code change the codeh1 {font-family: casino;}and ensure casino is the select font and remove the code#time-remaining, #flips {font-family: arial, sans-serif;font-weight: bold;}.When the code loads you will see the clock will jump from 60 to 49 incorrectly | change the h1 text and input casino as this can be used for the clock and flips
-  title. Add the following code into script.css insert the code by line 40#time-remaining, #flips {font-family: arial, sans-serif;font-weight: bold;}This change the integers into the san-serif text and we can use the casino
-  text for the title clock and flips. |
-| Accessibility Score | The accessibility score was quite low and the overall scores dropped down on the
-  report generated. I completed some research and noticed when reviewing the
-  code it was the alt="card" attribute flagged errors on the css code reviewer.
-  The information found and obtained confirmed the importance of the alt="card"
-  as required code on the images uploaded or applied in the coding. | The code in the card.js in the function section. Example the code with the image
-  src e.g. src="assets/images/dice.png" alt="card">'+ remove
-  the " alt="card". This will show when you open the developer
-  tool on the games webpage by pressing F12, select Lighthouse then generate
-  the report It will show a low accessibility score. | Add the alt="card" after the image source details to ensure the accessibility is
-  high for users and were following correct guidelines for every user when
-  completing the coding on the website. |
-| Card Flipping Background Colour | When flipping the cards in the game. There was an issue
-  with the background colour of the cards spinning. The background of the card
-  in the flipping process would have a white background. This was not only
-  presented incorrectly but was required to be fixed as it didn�t look right
-  for the game. | The .card elements is required ot have no background colour provided. As a result
-  this is defaulted to an white background in the game. The white background is
-  only applied to the cards in the game. It will display while flipping and
-  disappear once the card has fully flipped. | The accessibility score was quite low and the overall scores dropped down on the
-  report generated. I completed some research and noticed when reviewing the
-  code it was the alt=�card� attribute flagged errors on the css code reviewer.
-  The information found and obtained confirmed the importance of the alt�card�
-  as required code on the images uploaded or applied in the coding. |
-| Muting Issues | The muting feature in the game wasn�t working correctly
-  when the game was playing the background sound would mute. Although this
-  worked correctly the flip sound, game loss and game victory sound were still
-  working. | Class audioController section of the code in the script.js there the various
-  elements for the sounds ensure the code reads the below. e.g.flip() {this.flipsound.play();�}When the card is flipped it will make the flip sound in the game when the mute
-  button is pressed. | To fix the issue faced with muting the sound fully the code was amended and the
-  code should read.flip() {����if(!this.muted){���.flipsound.play();����}}When this is set the code will mute the flip sound this was applied to all the
-  sounds so the game wouldn�t play any sounds at all. |
-| Shuffling Issue | When attempting to create the set up for the cards using
-  bootstrap method with cols and rows. The error would occur where the cards
-  would only shuffle the cards assigned in that row. | In the code where the cards where originally built in html each card was typed
-  and each of them had their own div section. They would be required to be
-  rebuilt individually and applied to the code. | Instead of using the cards individually a wrapper was used and the cards where built
-  in the card.js section. The function was created to create the cards so all
-  the dice in the correct area of the card and all the images are loaded into
-  the game. This was a excellent fix as it would be easier to amend and expand
-  the game if necessary. |
+![Bugs Discovered1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image30.png)
+![Bugs Discovered2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image31.png)
+![Bugs Discovered3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image32.png)
 
 1.a
+
+![Bug1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image33.png)
 
 ### Outstanding Defects
 
@@ -618,22 +559,19 @@ To clone the project from GitHub:
 * Bells
      image - [https://www.searchpng.com/2018/12/16/christmas-bells-clipart-png-hd-christmas-bells-clipart-png-image-free-download/](https://www.searchpng.com/2018/12/16/christmas-bells-clipart-png-hd-christmas-bells-clipart-png-image-free-download/)
 * Coins
-     - [https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/](https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/)
+     image - [https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/](https://www.searchpng.com/2019/12/11/stack-of-gold-coins-png-image-free-download/)
 * Lemon
-     - [https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png](https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png)
+     image - [https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png](https://imgbin.com/png/gbNDM7K5/cartoon-lemon-png)
 * Cherry
      image - [https://www.pinclipart.com/pindetail/iimRTw_cherries-clipart-transparent-background-clip-art-png-transparent/](https://www.pinclipart.com/pindetail/iimRTw_cherries-clipart-transparent-background-clip-art-png-transparent/)
 * White
      Dice Image - [https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/](https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/)
-
 * Poker
-     Chip -*  [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
+     Chip -  [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
 * All
      sounds from the youtube free sounds library [https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic](https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic)
-* Original
-     Fail Sound - Operator Error (Sting)
-
-* Win Music - Left U Into (Sting) -
+* Original - Fail Sound - Operator Error (Sting) - List on the direct library it can be found by searching as there all ont he same page
+* Win Music - Left U Into (Sting) - List on the direct library it can be found by searching as there all ont he same page
 
 ## Code
 
