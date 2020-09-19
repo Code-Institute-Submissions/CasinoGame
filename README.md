@@ -127,7 +127,9 @@ suited. The website provided me a font that I thought would suit well on the
 website. It had the style that I was looking for and gave the font a better
 design overall on the webpage. Examples have been provided below.
 
-��� casino images
+![Font Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image2.png)
+
+![Font Image1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image3.png)
 
 ## Colours
 
@@ -139,6 +141,8 @@ need. Also, I tried and tested various colours and it didn't fit very well.
 This provided me with the idea to keep it with the topic the game is under.
 When people join or view the game/webpage they'll feel like it's a casino from
 the beginning. The colours used are have been displayed below.
+
+![Colour Image](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image4.png)
 
 ## Icons/Images
 
