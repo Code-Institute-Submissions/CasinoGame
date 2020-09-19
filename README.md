@@ -16,7 +16,7 @@ site functionality.
 * Interactive content to make the
      game more appealing and fun to the user making the first impression on the
      user greater.
-* This will test the user�s skill
+* This will test the user's skill
      and memory attributes offering a challenge for the user to have another go
      to try and complete the game.
 
@@ -24,32 +24,32 @@ site functionality.
 
 ## Project objectives
 
-<b>Lucky Casino�s main objective is to allow users to play an
+<b>Lucky Casinos main objective is to allow users to play an
 engaging memory game with as little instruction as possible. The casino music,
 colors and race against the clock gears it to an audience of 18 years and up.</b>
 
 ## Player Goals
 
 * Fun card
-     flipping game that�s very simple to use without any complications
+     flipping game thats very simple to use without any complications
 * Game
      controls for starting and volume do not require instructions
 * Enjoyable
-     game that�s provides a chohesive pleasant colour, sound and imagaery
+     game thats provides a chohesive pleasant colour, sound and imagaery
      scheme.
 
 ## Developer Goals
 
-### �Demonstrate
+### * Demonstrate
 a solid understanding of JavaScript
 
-### �Build
+### * Build
 an intuitive and engaging game
 
-### �Build
+### * Build
 up portfolio with a great project
 
-### �Make
+### * Make
 the game easier to maintain and scalable for future features.
 
 different items that could be used for
@@ -63,7 +63,7 @@ As
 an older player seeking to strengthen my memory I want:
 
 * to have
-     a game that�s not themed for children
+     a game thats not themed for children
 * to start
      the game without any delay once the user is ready
 * to play
@@ -84,7 +84,7 @@ an older player seeking to strengthen my memory I want:
      the victory music to indicate I have won the game.
 * to hear
      the fail music if I time out.
-* don�t
+* don't
      want any errors while playing the game
 
 * the
@@ -107,7 +107,7 @@ an older player seeking to strengthen my memory I want:
 The design was influenced by the original
 idea as a casino I believed the aspects, items and general first thought what a
 casino was is too be applied. If people walk into a casino they think of cards,
-money and various symbols such as chips, bells, cherry�s etc. I have attempted
+money and various symbols such as chips, bells, cherrys etc. I have attempted
 to include the same feel from an actual casino to make it more appealing that
 they are at one when viewing the design of the game. I looked at various
 pictures and from experience know what is in a casino. It is normally
@@ -120,22 +120,22 @@ game theme.
 ## Font
 
 The font used for the game was from [www.dafont.com](http://www.dafont.com) it was perfect and suited for the theme of the game. I had
-tried several fonts amending the styles of the size and colour which wasn�t
+tried several fonts amending the styles of the size and colour which wasn't
 suited. The website provided me a font that I thought would suit well on the
 website. It had the style that I was looking for and gave the font a better
 design overall on the webpage. Examples have been provided below.
 
-���
+��� casino images
 
 ## Colours
 
 The colours used for this game/website are casino based. Using
 the green, red and gold related colours with black to represent the night. The
 default colours used for chips, gambling tables and playing cards was the
-influence. I could have used any colours but don�t believe it would suit the
-need. Also, I tried and tested various colours and it didn�t fit very well.
+influence. I could have used any colours but don't believe it would suit the
+need. Also, I tried and tested various colours and it didn't fit very well.
 This provided me with the idea to keep it with the topic the game is under.
-When people join or view the game/webpage they�ll feel like it�s a casino from
+When people join or view the game/webpage they'll feel like it's a casino from
 the beginning. The colours used are have been displayed below.
 
 ## Icons/Images
@@ -146,7 +146,7 @@ with the flip card game I wanted more interactive images and look more
 realistic. I believed this would be better impact and have a better affect
 overall for the user experience. I took various images from the web pages
 finding the perfect images for the game. To me and other users who have viewed
-the page and interactive and tested it they�ve found the game overall image
+the page and interactive and tested it they've found the game overall image
 impressive and eye catching. This was the idea I was going for ensure the game
 works correct and is pleasant visually to the user.
 
@@ -158,14 +158,14 @@ the screen for larger devices. For small devices this has been set to be viewed
 as 2 by 2. I believe this can be implemented to be improved in the future and
 something to work on to be 4 by 4. They will start with click to start message
 with the cards hidden. Once started the user will hear the music and clock will
-be begin to countdown.� The cards will
+be begin to countdown. The cards will
 flip as required only two at a time as it checks the match. If its wrong cards
-flip back and the user goes again.� The
+flip back and the user goes again. The
 game title will be at the top of the screen with the font and colours provided.
 Followed by the clock and time, mute and unmute button and the flips which
 counts as the user clicks the cards. When the cards match the cards will stay
 on the screen visible of the item and will swing left to right to show they
-have been paired up correctly. If the user can�t complete the game in time,
+have been paired up correctly. If the user can't complete the game in time,
 they will get the Game over message including some sad music to show they have
 lost. The user can click again on the screen to try the game again. If all the
 cards match the user will get a Winner message on the screen and click to
@@ -177,7 +177,7 @@ be fun for the user.
 I used Balsamiq frameworks for designing and planning my game
 this would be the way to influence my design and give me an idea how it would
 look from my ideas. If any changes are implemented then I can discuss the
-changes from the original idea and show how I�ve improved the design.
+changes from the original idea and show how I've improved the design.
 
 The wireframes will show the design and the following images
 will show the design of the game and the outcome of the requested design. I
@@ -245,8 +245,8 @@ capital X included.
 
 The idea I had for the web page as an improvement after
 completing the webpage would be when the user matches a pair they could zoom or
-move towards the user�s screen. They would enlarge and say pair. At the moment
-I didn�t believe this was necessary but as a future improvement this could be
+move towards the user's screen. They would enlarge and say pair. At the moment
+I didn't believe this was necessary but as a future improvement this could be
 an excellent idea. This could be with fireworks just enhance the users
 experience when they get a pair visually.
 
@@ -275,7 +275,7 @@ users who suffer from this safe.
 
 Theme is the upgrade option for the game. This would have to
 completed and reviewed and tested ensuring the themes can be swapped correctly
-and wouldn�t have any code breaks. This would require through testing to ensure
+and wouldn't have any code breaks. This would require through testing to ensure
 the user can flip between themes very easy if they wish to do without losing
 their current game. My overall target was to make sure the theme used (Casino
 Theme) would work correctly before implementing the theme enhancements in the
@@ -309,12 +309,12 @@ reference to the file with the stuff being located in by the directory path.
 For the website the following programming languages have been
 used HTML, CSS and JavaScript programming languages.
 
-* [GitHub](https://github.com/) � The project required and
+* [GitHub](https://github.com/) - The project required and
      believed GitHub was the best for storing the projects details and easily
      be used for remote access when required.
 * [JQuery](https://jquery.com/) - used to simplify some
      DOM manipulation for certain functions
-* [GitPod](https://gitpod.io/) � Great toll to be sued
+* [GitPod](https://gitpod.io/) - Great toll to be sued
      for the development of the website and using the platform to complete the
      website as required. This helped fulfil the potential to complete the
      website.
@@ -361,12 +361,12 @@ pasted my code into it to ensure the code had no syntax errors:
 Jasmine testing would be ideal to
 test the card flipping accurately and accordingly. Also, the building of the
 card content was correctly working. Due to time constraints and working on the
-other aspects of the game I couldn�t pursue the possible requirement.
+other aspects of the game I couldn't pursue the possible requirement.
 
 ### Manual
 
 Manual testing was completed on
-the website/game features ensuring they work correctly for the users.� The details have been provided below showing
+the website/game features ensuring they work correctly for the users. The details have been provided below showing
 the result of the testing via two devices. The responsive device was fine when
 testing. Therefore, attempt testing on a small platform and a medium platform.
 
@@ -452,8 +452,8 @@ test the game on. This would ensure this works on multiple devices.
 
 ## Lighthouse Audit
 
-�Identify and fix common problems
-that affect your sites performance, accessibility, and user experience.�
+"Identify and fix common problems
+that affect your sites performance, accessibility, and user experience."
 
 Accessibility testing was
 conducted on the site to ensure it was suitable and performing to a suitable
@@ -473,8 +473,8 @@ As mentioned in the mobile review improvement to be completed as a future
 improvement.
 
 As you can see for both parts of
-the testing the accessibility is at 77 which isn�t the best for that option and
-could do with improving. A few amends where completed and added the alt=�card�
+the testing the accessibility is at 77 which isn't the best for that option and
+could do with improving. A few amends where completed and added the alt="card"
 code to each code in the card.js section e.g. <img class="dice
 dice-bottom-right" src="assets/images/dice.png"
 alt="card">'+ and <img class="chip"
@@ -496,20 +496,20 @@ Desktop Accessibility Improvement
   counting down in a strange pattern. It went from 60 to 49 then back up to 59
   and was counting down in a very strange pattern. Eventually the pattern would
   get down to zero but the code would be counting down correctly on the
-  developer tool. The problem was the game wasn�t counting down correct. This
+  developer tool. The problem was the game wasn't counting down correct. This
   caused visual problems for the game. This was spotted after the testing was complete.
   (Indicated in image 1.a) | In the css code change the codeh1 {font-family: casino;}and ensure casino is the select font and remove the code#time-remaining, #flips {font-family: arial, sans-serif;font-weight: bold;}.When the code loads you will see the clock will jump from 60 to 49 incorrectly | change the h1 text and input casino as this can be used for the clock and flips
   title. Add the following code into script.css insert the code by line 40#time-remaining, #flips {font-family: arial, sans-serif;font-weight: bold;}This change the integers into the san-serif text and we can use the casino
   text for the title clock and flips. |
 | Accessibility Score | The accessibility score was quite low and the overall scores dropped down on the
   report generated. I completed some research and noticed when reviewing the
-  code it was the alt=�card� attribute flagged errors on the css code reviewer.
-  The information found and obtained confirmed the importance of the alt�card�
+  code it was the alt="card" attribute flagged errors on the css code reviewer.
+  The information found and obtained confirmed the importance of the alt="card"
   as required code on the images uploaded or applied in the coding. | The code in the card.js in the function section. Example the code with the image
   src e.g. src="assets/images/dice.png" alt="card">'+ remove
   the " alt="card". This will show when you open the developer
   tool on the games webpage by pressing F12, select Lighthouse then generate
-  the report It will show a low accessibility score. | Add the alt=�card� after the image source details to ensure the accessibility is
+  the report It will show a low accessibility score. | Add the alt="card" after the image source details to ensure the accessibility is
   high for users and were following correct guidelines for every user when
   completing the coding on the website. |
 | Card Flipping Background Colour | When flipping the cards in the game. There was an issue
@@ -559,7 +559,7 @@ the sound. This needs more investigation to resolve the issue.
 I developed this project using Gitpod. I would amend the website
 as required and submit my amends to GitHub via Gitpod by committing and pushing
 the changes to the server. This would be completed using the GitPod
-terminal.�
+terminal.
 
 * Log
      into [GitHub](https://github.com/)
@@ -665,8 +665,8 @@ project completion.
 time to support me and help me with my coding concerns. I have been learning a
 lot and pointed in the right direction how to achieve certain aspects of codes
 and issues. Always explained the concept behind why its needed how it works and
-ensured I understood so there was no uncertainty.� Been a great support on my quest to learning
-more and glad I�ve got a friend in the coding world.
+ensured I understood so there was no uncertainty. Malia Been a great support on my quest to learning
+more and glad I've got a friend in the coding world.
 
 * For my family who ignored me so I would progress
 with my work and do the best job possible.
