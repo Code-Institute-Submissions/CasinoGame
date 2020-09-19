@@ -568,10 +568,14 @@ To clone the project from GitHub:
      Dice Image - [https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/](https://www.pngkey.com/detail/u2a9o0y3u2q8i1o0_white-dice-png-clip-art-black-and-white/)
 * Poker
      Chip -  [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
-* All
-     sounds from the youtube free sounds library [https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic](https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic)
-* Original - Fail Sound - Operator Error (Sting) - List on the direct library it can be found by searching as there all ont he same page
-* Win Music - Left U Into (Sting) - List on the direct library it can be found by searching as there all ont he same page
+
+* Background Music - RKVC - Christmas Chores - https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic
+* Victory Music - Otis McDonald - Left U Into (Sting) - https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic 
+(Have to search the song name all the music is shared under one list
+* Ring, Flappy Bird, Tribute, Coin, Success, Checkpoint, Retro - Flip Sound - https://www.zapsplat.com/music/ring-flappy-bird-tribute-coin-success-checkpoint-retro/
+* Arcade game slot machine payout or collect tone - Match Sound - https://www.zapsplat.com/music/arcade-game-slot-machine-payout-or-collect-tone/
+* High Pitch Bell Tone Ding - Match Sound - http://www.orangefreesounds.com/high-pitch-bell-tone-ding/
+
 
 ## Code
 
