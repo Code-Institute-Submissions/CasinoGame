@@ -196,13 +196,15 @@ outcome of the project work.
 
 ![Wireframe Image2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image6.png)
 
-![Wireframe Image3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image8.png)
+![Wireframe Image3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image7.png)
 
-![Wireframe Image4](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image9.png)
+![Wireframe Image4](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image8.png)
 
-![Wireframe Image5](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image10.png)
+![Wireframe Image5](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image9.png)
 
-![Wireframe Image6](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image11.png)
+![Wireframe Image7](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image10.png)
+
+![Wireframe Image8](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image11.png)
 
 
 # Features
