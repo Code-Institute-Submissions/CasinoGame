@@ -415,41 +415,10 @@ Various browsers were tested
 with the game link to ensure it would work on the browsers selected and
 available to use.
 
-|  |  | <b>Firefox Internet</b> | <b>Google Chrome</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Unmute button moves down due to the image difference potentially
-  fix required and improvement on the game |
+![Cross Browser Testing](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image21.png)
 
-|  |  | <b>Internet Edge</b> | <b>n/a</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | / | / | / | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | / | / | / | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | / | / | / | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | / | / | / | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | / | / |  | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | / | / | / | 15/09/2020 | Unmute button moves down due to the image difference
-  potentially fix required and improvement on the game |
+![Cross Browser Testing2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image22.png)
 
-<b>Note - Safari is not available
-to test therefore cannot test if it is suitable on the application/browser
-available.</b>
 
 ### Device Testing
 
@@ -457,37 +426,9 @@ To enable all device were
 tested and various device were explored tablets and mobiles where considered to
 test the game on. This would ensure this works on multiple devices.
 
-|  |  | <b>iPad Pro</b> | <b>Pixel 2</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Unmute button moves down due to the image difference potentially
-  fix required and improvement on the game |
+![Mobile Browser Testing1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image23.png)
 
-|  |  | <b>Huawei P20 Pro</b> | <b>Samsung Galaxy Tab</b> |  |  |
-| <b>Features</b> | <b>Action</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>PresentationGood</b> | <b>No JS issues</b> | <b>Links workingCorrectly</b> | <b>Last Validation</b> | <b>Notes</b> |
-| <b>Game Start Modal</b> | Load game to display start up screenNo further action needed | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | No Music plays until the game is clicked to start |
-| <b>Play Game to WinnerOutcome</b> | Load game http:// , start a game and get the winner
-  outcome by winning the game | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly with the game has been lost music. |
-| <b>Game in Active Mode</b> | Start the game and play the game as normal | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Game works correctly and as required. Game starts and the
-  user can play the game as they wish. |
-| <b>Loser Modal</b> | Start game and let the timer run out | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Sound plays as required |
-| <b>Mute Action</b> | Start game and attempt to click the speaker icon in the
-  middle of the clock and flips | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Works correctly sound removed from the game. When the game
-  restarts the sound will play again. This will be required to be improved to
-  not play at all unless the button is pressed. |
-| <b>Unmute Action</b> | Start game and attempt to click the speaker icon once
-  ensuring the sound has been muted then press the speaker button again | Yes | Yes | Yes | Yes | Yes | Yes | 15/09/2020 | Unmute button moves down due to the image difference potentially
-  fix required and improvement on the game |
+![Mobile Browser Testing2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image24.png)
 
 ## Lighthouse Audit
 
@@ -501,10 +442,14 @@ potentially work to its maximum performance. This is completed by selected the
 lighthouse option on the developer tool and generating a report for the selected
 device. This can be mobile or desktop devices.
 
+![Lighthouse Audit1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image25.png)
+
 The
 results for mobile are 98 which is a worthy score for a website but I would
 look to improve the score where posisble this can be a future update and
 performance improvement.
+
+![Lighthouse Audit1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image26.png)
 
 The
 result for desktop was 100 which is acceptable for the website and performance.
@@ -524,62 +469,17 @@ improvement and desktop accessibility improvement.
 
 Mobile Accessibility Improvement
 
+![Mobile Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image27.png)
+
 Desktop Accessibility Improvement
 
-�
+![Desktop Accessibility Improvement](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image28.png)
 
 ## Bugs Discovered
 
-| <b>Features</b> | <b>Description</b> | <b>Steps to Reproduce</b> | <b>Resolution</b> |
-| <b>Clock Countdown</b> | When the game starts the game appears to work correctly. I noticed the clock was
-  counting down in a strange pattern. It went from 60 to 49 then back up to 59
-  and was counting down in a very strange pattern. Eventually the pattern would
-  get down to zero but the code would be counting down correctly on the
-  developer tool. The problem was the game wasn't counting down correct. This
-  caused visual problems for the game. This was spotted after the testing was complete.
-  (Indicated in image 1.a) | In the css code change the codeh1 {font-family: casino;}and ensure casino is the select font and remove the code#time-remaining, #flips {font-family: arial, sans-serif;font-weight: bold;}.When the code loads you will see the clock will jump from 60 to 49 incorrectly | change the h1 text and input casino as this can be used for the clock and flips
-  title. Add the following code into script.css insert the code by line 40#time-remaining, #flips {font-family: arial, sans-serif;font-weight: bold;}This change the integers into the san-serif text and we can use the casino
-  text for the title clock and flips. |
-| Accessibility Score | The accessibility score was quite low and the overall scores dropped down on the
-  report generated. I completed some research and noticed when reviewing the
-  code it was the alt="card" attribute flagged errors on the css code reviewer.
-  The information found and obtained confirmed the importance of the alt="card"
-  as required code on the images uploaded or applied in the coding. | The code in the card.js in the function section. Example the code with the image
-  src e.g. src="assets/images/dice.png" alt="card">'+ remove
-  the " alt="card". This will show when you open the developer
-  tool on the games webpage by pressing F12, select Lighthouse then generate
-  the report It will show a low accessibility score. | Add the alt="card" after the image source details to ensure the accessibility is
-  high for users and were following correct guidelines for every user when
-  completing the coding on the website. |
-| Card Flipping Background Colour | When flipping the cards in the game. There was an issue
-  with the background colour of the cards spinning. The background of the card
-  in the flipping process would have a white background. This was not only
-  presented incorrectly but was required to be fixed as it didn�t look right
-  for the game. | The .card elements is required ot have no background colour provided. As a result
-  this is defaulted to an white background in the game. The white background is
-  only applied to the cards in the game. It will display while flipping and
-  disappear once the card has fully flipped. | The accessibility score was quite low and the overall scores dropped down on the
-  report generated. I completed some research and noticed when reviewing the
-  code it was the alt=�card� attribute flagged errors on the css code reviewer.
-  The information found and obtained confirmed the importance of the alt�card�
-  as required code on the images uploaded or applied in the coding. |
-| Muting Issues | The muting feature in the game wasn�t working correctly
-  when the game was playing the background sound would mute. Although this
-  worked correctly the flip sound, game loss and game victory sound were still
-  working. | Class audioController section of the code in the script.js there the various
-  elements for the sounds ensure the code reads the below. e.g.flip() {this.flipsound.play();�}When the card is flipped it will make the flip sound in the game when the mute
-  button is pressed. | To fix the issue faced with muting the sound fully the code was amended and the
-  code should read.flip() {����if(!this.muted){���.flipsound.play();����}}When this is set the code will mute the flip sound this was applied to all the
-  sounds so the game wouldn�t play any sounds at all. |
-| Shuffling Issue | When attempting to create the set up for the cards using
-  bootstrap method with cols and rows. The error would occur where the cards
-  would only shuffle the cards assigned in that row. | In the code where the cards where originally built in html each card was typed
-  and each of them had their own div section. They would be required to be
-  rebuilt individually and applied to the code. | Instead of using the cards individually a wrapper was used and the cards where built
-  in the card.js section. The function was created to create the cards so all
-  the dice in the correct area of the card and all the images are loaded into
-  the game. This was a excellent fix as it would be easier to amend and expand
-  the game if necessary. |
+![Bugs Discovered](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image29.png)
+![Bugs Discovered](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image30.png)
+![Bugs Discovered](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image31.png)
 
 1.a
 
