@@ -458,11 +458,11 @@ improvement.
 
 As you can see for both parts of
 the testing the accessibility is at 77 which isn't the best for that option and
-could do with improving. A few amends where completed and added the alt="card"
-code to each code in the card.js section e.g. (<img class="dice
+could do with improving. A few amends where completed and added the ```alt="card"```
+code to each code in the card.js section e.g. ```(<img class="dice
 dice-bottom-right" src="assets/images/dice.png"
 alt="card">'+) and (<img class="chip"
-src="assets/images/chip.png" alt="card">'+.) This fixed
+src="assets/images/chip.png" alt="card">'+.)``` This fixed
 both the mobile and desktop accessibility and upgrade all scores to a better
 standard. This is indicated on the two images below mobile accessibility
 improvement and desktop accessibility improvement.
