@@ -570,9 +570,9 @@ To clone the project from GitHub:
      Chip -  [https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/](https://www.pinclipart.com/pindetail/Twbwih_drake-casino-drakecasino-poker-chip-clipart-png-download/)
 
 * Background Music - RKVC - Christmas Chores - https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic
-* Victory Music - Otis McDonald - Left U Into (Sting) - https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic 
+* Victory Music - Otis McDonald - Left U Into (Sting) - https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic
 (Have to search the song name all the music is shared under one list
-* Lose Music - Aaron Kenny - Watercolor Lilieshttps://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic
+* Lose Music - Aaron Kenny - Watercolor Lilies -  https://studio.youtube.com/channel/UCm-T04_5xc8fgzQ1-IScuqQ/music?utm_campaign=upgrade&utm_medium=redirect&utm_source=%2Faudiolibrary%2Fmusic
 * Audio cassette tape inlay card remove from case - Flip Sound - https://www.zapsplat.com/music/audio-cassette-tape-inlay-card-remove-from-case/
 * Arcade game slot machine payout or collect tone - Match Sound - https://www.zapsplat.com/music/arcade-game-slot-machine-payout-or-collect-tone/
 
