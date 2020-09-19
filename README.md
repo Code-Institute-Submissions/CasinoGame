@@ -1,6 +1,6 @@
 # Lucky Casino
 
-![Title Image]https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image1.png
+![Title Image](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image1.png)
 
 # Introduction
 
