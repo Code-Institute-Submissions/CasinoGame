@@ -1,3 +1,48 @@
+- [Lucky Casino](#lucky-casino)
+- [Introduction](#introduction)
+- [UX](#ux)
+  * [Project objectives](#project-objectives)
+  * [Player Goals](#player-goals)
+  * [Developer Goals](#developer-goals)
+  * [User Stories](#user-stories)
+- [Design](#design)
+  * [Inspiration:](#inspiration)
+  * [Font](#font)
+  * [Colours](#colours)
+  * [Icons/Images](#iconsimages)
+  * [Content Section](#content-section)
+  * [Wireframes](#wireframes)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+    + [Game Startup Modal](#game-startup-modal)
+    + [Active Game Mode](#active-game-mode)
+    + [Game Over Modal](#game-over-modal)
+  * [Scalable and Easy to Maintain Code](#scalable-and-easy-to-maintain-code)
+  * [Features to Improve/Implement](#features-to-improveimplement)
+    + [1. Animation improvements](#1-animation-improvements)
+    + [2. Start Up Cards](#2-start-up-cards)
+    + [3. Game Title Lighting amends](#3-game-title-lighting-amends)
+    + [4. Theme Swaps](#4-theme-swaps)
+    + [5. Difficulty Levels](#5-difficulty-levels)
+- [Technologies used](#technologies-used)
+- [Testing](#testing)
+  * [Validation Testing](#validation-testing)
+  * [User Stories Testing](#user-stories-testing)
+    + [Automated](#automated)
+    + [Manual](#manual)
+    + [Cross Browser Testing](#cross-browser-testing)
+    + [Device Testing](#device-testing)
+  * [Lighthouse Audit](#lighthouse-audit)
+  * [Bugs Discovered](#bugs-discovered)
+    + [Outstanding Defects](#outstanding-defects)
+- [Deployment](#deployment)
+  * [Deploy to GitHub Pages](#deploy-to-github-pages)
+  * [How to run the project locally](#how-to-run-the-project-locally)
+- [Credits](#credits)
+  * [Content/Media](#contentmedia)
+  * [Code](#code)
+  * [Acknowledgements](#acknowledgements)
+
 # Lucky Casino
 
 ![Title Image](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image1.png)
@@ -12,6 +57,8 @@ will be fun and challenging for everybody who has an attempt. The site will be
 bright, colorful and will have a host of interactive content. This will include
 animations, music, sounds and high JavaScript content involved to improve the
 site functionality.
+
+Click the link to play [Lucky Casino](https://tomod24.github.io/CasinoGame/)
 
 * Fun game matching the pairs of
      cards together
@@ -542,7 +589,7 @@ To clone the project from GitHub:
 7. Press
      Enter, and the clone should subsequently be created
 
-<b>Credits</b>
+# Credits
 
 ## Content/Media
 
