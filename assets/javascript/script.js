@@ -23,7 +23,7 @@ class AudioController {
 		this.bgmusic.pause();
 		this.bgmusic.currentTime = 0;
 	}
-flip() {
+    flip() {
 		//flipping card audio
 		if (!this.muted) {
 			this.flipsound.currentTime = 0;
@@ -33,6 +33,7 @@ flip() {
 	match() {
 		//matching card audio
 		if (!this.muted) {
+			this.matchsound.currentTime = 0;
 			this.matchsound.play();
 		}
 	}
@@ -105,7 +106,6 @@ class casinogame {
 			this.totalClicks++;
 			this.ticker.innerText = this.totalClicks;
 			card.classList.add('visible');
-
 			if (this.cardToCheck)
 				this.checkForCardMatch(card);
 			else
@@ -137,7 +137,7 @@ class casinogame {
 		setTimeout(() => {
 			card1.classList.remove('visible');
 			card2.classList.remove('visible');
-			this.busy = false;
+            this.busy = false;
 		}, 1000);
 	}
 
