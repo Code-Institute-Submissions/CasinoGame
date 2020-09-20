@@ -6,10 +6,10 @@
   * [Developer Goals](#developer-goals)
   * [User Stories](#user-stories)
 - [Design](#design)
-  * [Inspiration:](#inspiration-)
+  * [Inspiration:](#inspiration)
   * [Font](#font)
   * [Colours](#colours)
-  * [Icons/Images](#icons-images)
+  * [Icons/Images](#iconsimages)
   * [Content Section](#content-section)
   * [Wireframes](#wireframes)
 - [Features](#features)
@@ -18,7 +18,7 @@
     + [Active Game Mode](#active-game-mode)
     + [Game Over Modal](#game-over-modal)
   * [Scalable and Easy to Maintain Code](#scalable-and-easy-to-maintain-code)
-  * [Features to Improve/Implement](#features-to-improve-implement)
+  * [Features to Improve/Implement](#features-to-improveimplement)
     + [1. Animation improvements](#1-animation-improvements)
     + [2. Start Up Cards](#2-start-up-cards)
     + [3. Game Title Lighting amends](#3-game-title-lighting-amends)
@@ -38,7 +38,8 @@
 - [Deployment](#deployment)
   * [Deploy to GitHub Pages](#deploy-to-github-pages)
   * [How to run the project locally](#how-to-run-the-project-locally)
-  * [Content/Media](#content-media)
+- [Credits](#credits)
+  * [Content/Media](#contentmedia)
   * [Code](#code)
   * [Acknowledgements](#acknowledgements)
 
@@ -588,7 +589,7 @@ To clone the project from GitHub:
 7. Press
      Enter, and the clone should subsequently be created
 
-<b>Credits</b>
+# Credits
 
 ## Content/Media
 
