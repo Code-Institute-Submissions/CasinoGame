@@ -33,6 +33,7 @@ flip() {
 	match() {
 		//matching card audio
 		if (!this.muted) {
+			this.matchsound.currentTime = 0;
 			this.matchsound.play();
 		}
 	}
