@@ -418,9 +418,11 @@ for your accessibility testing
 the web page icon section
 * [Coolers](https://coolors.co/) - Color Scheme generator, used to fine tune color selection and find hover
      colors
-* [Markdown Table Generator](Markdown%20Table%20Generator) - Used to help with
+* [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables/) - Used to help with
      documentation table formatting
-* [Markdown Table Of Contents Generator](Markdown%20Table%20Of%20Contents%20Generator) - Used to create table of
+* [Markdown Table Of Contents Generator](https://ecotrust-canada.github.io/markdown-toc/) - Used to create table of
+     contents
+* [HTML Color Codes](https://htmlcolorcodes.com/) - Used for support of the html colours and graphic design for the colours selected
      contents
 
 # Testing
@@ -526,11 +528,10 @@ Desktop Accessibility Improvement
 
 ![Bugs Discovered1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image30.png)
 ![Bugs Discovered2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image31.png)
-![Bugs Discovered3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image32.png)
 
 1.a
 
-![Bug1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image33.png)
+![Bugs Discovered3](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image32.png)
 
 ### Outstanding Defects
 
