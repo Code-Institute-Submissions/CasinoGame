@@ -32,6 +32,7 @@
     + [Manual](#manual)
     + [Cross Browser Testing](#cross-browser-testing)
     + [Device Testing](#device-testing)
+    + [JS-Hint Findings](#JS-Hint-Findings)
   * [Lighthouse Audit](#lighthouse-audit)
   * [Bugs Discovered](#bugs-discovered)
     + [Outstanding Defects](#outstanding-defects)
@@ -476,6 +477,16 @@ test the game on. This would ensure this works on multiple devices.
 ![Mobile Browser Testing1](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image23.png)
 
 ![Mobile Browser Testing2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image24.png)
+
+### JS-Hint Findings
+
+Script.js – When using the JS-Hint tool an alert was provided one undefined variable. The variable is working correctly and isn’t required to be declared in this particular case. I have made a note of the finding but this does not affect the code in anyway.
+
+![Mobile Browser Testing2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image33.png)
+
+Card.js - When using the JS-Hint tool an alert was provided one undefined variable and image warnings. The code reflects the code and the way it used correctly pulling the multiple images. As a result, the code provided works correctly and would need an amend.
+
+![Mobile Browser Testing2](https://github.com/tomod24/CasinoGame/blob/master/assets/images/readme/image34.png)
 
 ## Lighthouse Audit
 
